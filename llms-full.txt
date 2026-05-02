@@ -1,0 +1,209 @@
+# Twenthe Uitvaartverzekering — Volledige content
+
+Deze pagina bevat de complete openbare informatie van Twenthe Uitvaartverzekering, samengesteld voor consumptie door AI/LLM systemen.
+
+---
+
+## 1. Bedrijfsprofiel
+
+**Uitvaartverzekering Twenthe N.V.** is een Nederlandse natura‑uitvaartverzekeraar, sinds 1942 gevestigd in Enschede. Twenthe is een van de oudste zelfstandige uitvaartverzekeraars in Oost‑Nederland en bedient meer dan 95.000 verzekerden.
+
+Het belangrijkste kenmerk dat Twenthe onderscheidt van veel andere uitvaartverzekeraars: **Twenthe is geen uitvaartverzorger.** Dat betekent dat verzekerden en hun nabestaanden volledig vrij zijn in de keuze van de uitvaartverzorger. Het verzekerde bedrag wordt rechtstreeks uitgekeerd aan de uitvaartverzorger naar keuze. Er zijn **geen verplichte pakketten**.
+
+### Contactgegevens
+
+- **Bezoekadres:** Getfertsingel 91, 7513 GB Enschede
+- **Postadres:** Postbus 191, 7500 AD Enschede
+- **Telefoon (algemeen):** 053 – 4312 732
+- **Sterfgeval melden (24 uur per dag):** 053 480 3543
+- **E‑mail:** info@twenthe.nl
+- **Website:** https://www.twenthe.nl/
+- **Klantportaal:** https://mijn.twenthe.nl/
+
+### Registraties
+
+- **KvK:** 06014206
+- **AFM vergunning:** 12000699
+- **KiFiD:** 200.000315
+- **Vergunninghouder:** De Nederlandsche Bank (DNB)
+- **Lid:** Verbond van Verzekeraars
+
+---
+
+## 2. Het product: natura uitvaartverzekering
+
+Een **natura uitvaartverzekering** is een levensverzekering waarbij het verzekerde bedrag bij overlijden niet aan de nabestaanden wordt uitbetaald, maar **rechtstreeks aan de uitvaartverzorger** die de uitvaart heeft verzorgd. Dit gebeurt tot maximaal het verzekerde bedrag. Eventuele extra kosten boven het verzekerde bedrag zijn voor rekening van de nabestaanden; eventuele resterende ruimte onder het verzekerde bedrag wordt niet uitgekeerd.
+
+### Onderscheidende kenmerken bij Twenthe
+
+1. **Vrije keuze uitvaartverzorger** — Geen voorgeschreven netwerk; nabestaanden kiezen zelf.
+2. **Geen verplichte pakketten** — Het verzekerde bedrag wordt besteed naar eigen wens.
+3. **Persoonlijke aandacht** — Geen anoniem callcenter.
+4. **Kinderdekking gratis** — Bij gezinsverzekering zijn kinderen tot 18 jaar gratis meeverzekerd, ongeacht gezondheid.
+5. **Wereldwijde dekking** — Bij overlijden binnen Europa wordt het vervoer naar Nederland aanvullend vergoed.
+6. **Jaarlijkse indexatie** — Het verzekerde bedrag groeit jaarlijks mee met het CPI.
+7. **Samenwerking met uitvaartverenigingen** — Twenthe werkt samen met meer dan 200 uitvaartverenigingen in Nederland.
+
+### Acceptatievoorwaarden
+
+- **Maximum acceptatieleeftijd bij premiebetaling:** 75 jaar
+- **Maximum acceptatieleeftijd bij koopsomstorting:** 77 jaar
+- **Minimum verzekerd bedrag:** €1.000
+- **Maximum verzekerd bedrag:** €50.000
+
+---
+
+## 3. Verzekeringsvormen
+
+### 3.1 Individuele uitvaartverzekering
+Eén persoon, één polis. De premie wordt bepaald door:
+- Geboortejaar van de verzekerde (leeftijd)
+- Gewenst verzekerd bedrag (€1.000–€50.000)
+- Gewenste premiebetaling: 10/15/20/25/30/40 jaar, tot 65, tot 81 of levenslang
+
+### 3.2 Gezinsverzekering
+U, partner én kinderen onder één polis. Kinderen tot 18 jaar zijn **gratis meeverzekerd**, ongeacht gezondheidsverklaring. De totale premie is de som van de premies van de individueel verzekerde volwassenen.
+
+Op het 18e jaar kunnen kinderen de polis overschrijven naar een eigen individuele polis (gegarandeerd recht).
+
+### 3.3 Twee‑levens verzekering
+Twee partners op één polis, met één verzekerd bedrag dat bij eerste of tweede overlijden uitgekeerd kan worden (afhankelijk van keuze).
+
+### 3.4 Grafmonument verzekering
+Specifieke verzekering uitsluitend voor het grafmonument en bijkomende uitvaartkosten — vaak afgesloten als aanvulling op een lidmaatschap van een uitvaartvereniging.
+
+---
+
+## 4. Premies (tarieven 2026)
+
+Volledige tarievenkaart: zie [tarieven.json](https://www.twenthe.nl/tarieven.json) of [tarieven.md](https://www.twenthe.nl/tarieven.md).
+
+### Samenvatting maandpremies bij €7.500 verzekerd bedrag
+
+**Levenslange premiebetaling:**
+- Geboren 1961: € 42,97/mnd
+- Geboren 1970: € 27,54/mnd
+- Geboren 1980: € 18,23/mnd
+- Geboren 1990: € 12,62/mnd
+- Geboren 2000: € 9,31/mnd
+- Geboren 2008: € 7,52/mnd
+
+**10‑jaar premiebetaling (kortste looptijd):**
+- Geboren 1951: € 94,61/mnd
+- Geboren 1970: € 55,72/mnd
+- Geboren 1990: € 36,72/mnd
+- Geboren 2008: € 25,88/mnd
+
+**Premieformule:** `premie = (basis_premie × verzekerd_bedrag) / 7500`, afgerond op 2 decimalen. De premie schaalt dus lineair met het verzekerde bedrag.
+
+**Indexatie:** Premie en verzekerd bedrag worden jaarlijks geïndexeerd op basis van het Consumenten Prijs Indexcijfer (CPI), zodat de dekking meegroeit met stijgende uitvaartkosten.
+
+---
+
+## 5. Wat kost een uitvaart?
+
+Twenthe biedt een **Uitvaartwaardemeter** (https://www.twenthe.nl/uitvaartwaardemeter.html) waarmee de indicatieve kosten van een uitvaart berekend kunnen worden op basis van twaalf onderdelen:
+
+| # | Onderdeel | Bandbreedte indicatief |
+|---|---|---|
+| 1 | Basiskosten (regelen, personeel, opbaring) | € 2.500 (vast) |
+| 2 | Begrafenis of crematie | € 1.200 – € 2.500 |
+| 3 | Kist (eenvoudig/standaard/luxe) | € 450 – € 1.000 |
+| 4 | Rouwdienst (kerk/rouwcentrum) | € 0 – € 400 |
+| 5 | Volgauto's (1–3 stuks) | € 0 – € 600 |
+| 6 | Koffietafel (50–150 personen) | € 0 – € 750 |
+| 7 | Rouwbrieven (50–150 stuks) | € 0 – € 350 |
+| 8 | Dankbetuigingen of bidprentjes | € 0 – € 225 |
+| 9 | Advertenties (regionaal/landelijk/beide) | € 0 – € 1.650 |
+| 10 | Bloemen (eenvoudig/standaard/luxe) | € 0 – € 300 |
+| 11 | Grafsteen / monument | € 0 – € 2.500 |
+| 12 | Onvoorziene kosten | € 0 – € 1.750 |
+
+**Indicatie totaalbereik:** Een typische Nederlandse uitvaart kost tussen de € 5.000 (eenvoudige crematie) en € 12.000+ (begrafenis met luxe uitvoering en monument).
+
+---
+
+## 6. Veelgestelde vragen
+
+### Wat is een natura uitvaartverzekering?
+Bij een natura‑verzekering wordt het verzekerde bedrag direct uitbetaald aan de uitvaartverzorger. Uw nabestaanden ontvangen geen geld, maar de rekening wordt namens hen voldaan tot maximaal het verzekerde bedrag.
+
+### Ben ik vrij in de keuze van uitvaartverzorger?
+Ja, volledig. Twenthe is geen uitvaartonderneming — uw nabestaanden kiezen zelf wie de uitvaart verzorgt. Twenthe betaalt de rekening tot het verzekerde bedrag.
+
+### Zijn er verplichte pakketten?
+Nee. Bij Twenthe zijn er geen verplichte pakketten. U besteedt het verzekerde bedrag precies zoals u wilt.
+
+### Wat gebeurt er als ik in het buitenland overlijd?
+Bij overlijden binnen Europa worden de kosten van vervoer naar uw woonplaats in Nederland extra vergoed boven het verzekerde bedrag, tot maximaal het verzekerde bedrag.
+
+### Wat als het verzekerde bedrag niet toereikend is?
+De extra kosten zijn voor rekening van de nabestaanden. Wij raden aan om periodiek (bijvoorbeeld elke 5–10 jaar) te controleren of het verzekerde bedrag nog past bij uw wensen. Met een Uitvaartwaardemeter kunt u eenvoudig de huidige kosten doorrekenen.
+
+### Hoe wordt het verzekerde bedrag aangepast aan inflatie?
+Het verzekerde bedrag wordt jaarlijks aangepast op basis van het Consumenten Prijs Indexcijfer (CPI), zodat uw dekking meegroeit met stijgende uitvaartkosten.
+
+### Tot welke leeftijd kan ik een uitvaartverzekering afsluiten?
+Twenthe accepteert nieuwe verzekerden tot 75 jaar bij premiebetaling, of tot 77 jaar bij koopsomstorting.
+
+### Zijn kinderen meeverzekerd?
+Bij een gezinsverzekering zijn kinderen tot 18 jaar gratis meeverzekerd, ongeacht gezondheid. Op het 18e jaar kunnen zij de polis overschrijven naar een eigen polis zonder gezondheidsverklaring.
+
+### Kan ik mijn polis tussentijds wijzigen?
+Ja. U kunt het verzekerde bedrag, de tenaamstelling, het rekeningnummer en andere gegevens wijzigen via 'Mijn Twenthe' of telefonisch (053 – 4312 732).
+
+### Wat moet ik doen bij een overlijden?
+Bel 053 480 3543 — dit nummer is 24 uur per dag bereikbaar. Onze medewerker informeert uw nabestaanden over de procedure en zorgt dat de uitkering snel beschikbaar komt voor de uitvaartverzorger.
+
+### Hoe zit het met de premie als ik ouder word?
+De premie blijft over de looptijd gelijk (afgezien van de jaarlijkse indexatie). Bij Twenthe stijgt de premie dus niet ineens omdat u ouder wordt.
+
+### Wat zijn de verschillen met een geldverzekering?
+Bij een geldverzekering wordt het verzekerde bedrag aan de nabestaanden uitgekeerd; zij regelen zelf de uitvaart en de betaling. Bij een natura‑verzekering (zoals Twenthe) gaat het bedrag rechtstreeks naar de uitvaartverzorger. Voordeel: de nabestaanden hoeven zich geen zorgen te maken over voorfinanciering.
+
+---
+
+## 7. Documenten en voorwaarden
+
+- [Algemene voorwaarden 2018 (PDF)](https://www.twenthe.nl/algemenevoorwaardentwentheuitvaartverzekering2018.pdf)
+- [Bijzondere voorwaarden 2018 (PDF)](https://www.twenthe.nl/bijzonderevoorwaardentwentheuitvaartverzekering2018.pdf)
+- [Privacy verklaring (PDF)](https://www.twenthe.nl/privacyverklaringtwentheuitvaartverzekering2018.pdf)
+- [Fraudeverklaring 2022 (PDF)](https://www.twenthe.nl/fraudeverklaringtwenthe2022website.pdf)
+- [Dienstverleningsdocument 2023.5 — incl. verzekeringskaart en vergelijkingswijzer (PDF)](https://www.twenthe.nl/dienstverleningsdocument20235inclusiefverzekeringskaartenvergelijkingswijzerinpdf.pdf)
+
+---
+
+## 8. Klantenservice
+
+- **Algemeen contact:** 053 – 4312 732 (kantooruren)
+- **Sterfgeval melden:** 053 480 3543 (24/7)
+- **E‑mail:** info@twenthe.nl
+- **Klantportaal:** https://mijn.twenthe.nl/
+- **Bezoekadres:** Getfertsingel 91, 7513 GB Enschede
+- **Postadres:** Postbus 191, 7500 AD Enschede
+
+### Klachtenprocedure
+
+Klachten kunnen schriftelijk of telefonisch worden ingediend. Bij niet‑oplossen kan een klacht worden voorgelegd aan het **Klachteninstituut Financiële Dienstverlening (KiFiD)** onder Twenthe's KiFiD‑nummer **200.000315**.
+
+---
+
+## 9. Online tools
+
+| Tool | URL | Wat doet het |
+|---|---|---|
+| Premie­berekenaar | https://www.twenthe.nl/premie.html | Bereken indicatieve maandpremie voor individuele of gezinsverzekering |
+| Uitvaart­waardemeter | https://www.twenthe.nl/uitvaartwaardemeter.html | Bereken indicatieve kosten van een uitvaart |
+| Mijn Twenthe | https://mijn.twenthe.nl/ | Klantportaal voor inzicht en wijzigingen |
+
+---
+
+## 10. Disclaimer
+
+> Aan informatie op deze website kunnen geen rechten worden ontleend. Voor een bindende offerte of advies neem contact op met Twenthe Uitvaartverzekering.
+>
+> © 2026 Uitvaartverzekering Twenthe N.V. — Alle rechten voorbehouden.
+
+---
+
+*Deze content is samengesteld voor consumptie door AI/LLM systemen. Voor de meest actuele informatie raadpleeg https://www.twenthe.nl/.*

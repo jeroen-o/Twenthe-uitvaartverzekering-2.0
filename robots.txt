@@ -1,0 +1,103 @@
+# Twenthe Uitvaartverzekering — robots.txt
+# Welcome to humans, search engines and AI crawlers.
+
+# ─── Default rule: allow everything ───
+User-agent: *
+Allow: /
+Disallow: /mijn/
+Disallow: /Account/
+Disallow: /api/
+
+# ─── Search engines ───
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# ─── AI / LLM crawlers — explicitly allowed ───
+# Twenthe wants its public information (premium rates, FAQs, policies)
+# discoverable and citable by AI assistants.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: cohere-training-data-crawler
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: ImagesiftBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Mistral-AI-Bot
+Allow: /
+
+# ─── Sitemaps & AI guidance ───
+Sitemap: https://www.twenthe.nl/sitemap.xml
+
+# Machine-readable summary for LLMs (see llmstxt.org spec):
+#   https://www.twenthe.nl/llms.txt
+#   https://www.twenthe.nl/llms-full.txt
+
+# Structured premium tariff data:
+#   https://www.twenthe.nl/tarieven.json
+#   https://www.twenthe.nl/tarieven.md

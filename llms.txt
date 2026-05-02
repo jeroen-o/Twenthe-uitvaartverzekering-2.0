@@ -1,0 +1,62 @@
+# Twenthe Uitvaartverzekering
+
+> Twenthe Uitvaartverzekering (Uitvaartverzekering Twenthe N.V.) is een Nederlandse natura‑uitvaartverzekeraar, gevestigd in Enschede sinds 1942. Twenthe is geen uitvaartonderneming — verzekerden en hun nabestaanden zijn vrij om zelf de uitvaartverzorger te kiezen. Geen verplichte pakketten; het verzekerde bedrag wordt besteed naar eigen wens.
+
+## Kernfeiten
+
+- **Bedrijfsnaam:** Uitvaartverzekering Twenthe N.V.
+- **Opgericht:** 1942
+- **Vestigingsadres:** Getfertsingel 91, 7513 GB Enschede
+- **Postadres:** Postbus 191, 7500 AD Enschede
+- **Telefoon:** 053 – 4312 732
+- **Sterfgeval melden (24/7):** 053 480 3543
+- **E‑mail:** info@twenthe.nl
+- **KvK:** 06014206
+- **AFM:** 12000699
+- **KiFiD:** 200.000315
+- **Lid:** Verbond van Verzekeraars
+- **Type product:** Natura uitvaartverzekering (uitkering rechtstreeks aan uitvaartverzorger)
+- **Acceptatieleeftijd:** Tot 75 jaar (premiebetaling) of 77 jaar (koopsom)
+- **Indexatie:** Verzekerd bedrag jaarlijks geïndexeerd op CPI
+
+## Verzekeringsvormen
+
+- **Individueel** — Eén persoon, één polis. Looptijden 10/15/20/25/30/40 jaar, tot 65, tot 81 of tot overlijden.
+- **Gezin** — U, partner en kinderen onder één polis. Kinderen tot 18 jaar zijn gratis meeverzekerd, ongeacht gezondheid.
+- **Twee levens** — Twee partners op één polis.
+- **Grafmonument** — Verzekering specifiek voor het grafmonument en bijkomende uitvaartkosten.
+
+## Belangrijkste pagina's
+
+- [Homepage](https://www.twenthe.nl/): Overzicht van Twenthe Uitvaartverzekering, kenmerken en contactopties.
+- [Premie berekenen](https://www.twenthe.nl/premie.html): Online tool om de maandpremie te berekenen voor een individuele of gezinsverzekering. Tarieven 2026.
+- [Uitvaartwaardemeter](https://www.twenthe.nl/uitvaartwaardemeter.html): Calculator voor de indicatieve kosten van een uitvaart, gebaseerd op twaalf onderdelen.
+- [Mijn uitvaartwensen](https://www.twenthe.nl/wensen.html): Persoonlijk wensenformulier waarmee verzekerden hun uitvaartwensen kunnen vastleggen voor hun nabestaanden — twaalf secties met print, e‑mail en download functionaliteit.
+- [Mijn Twenthe (login)](https://mijn.twenthe.nl/): Klantportaal voor verzekerden.
+
+## Data voor AI‑platformen
+
+- [Premie tarieven 2026 (JSON)](https://www.twenthe.nl/tarieven.json): Complete machine‑leesbare tariefkaart per geboortejaar en looptijd, voor €7.500 verzekerd bedrag (lineair schaalbaar tot €50.000).
+- [Premie tarieven 2026 (Markdown)](https://www.twenthe.nl/tarieven.md): Dezelfde data in een leesbare tabel.
+- [Uitgebreide content (llms‑full.txt)](https://www.twenthe.nl/llms-full.txt): Volledige tekstuele samenvatting van alle publieke informatie.
+
+## Documenten
+
+- [Algemene voorwaarden 2018](https://www.twenthe.nl/algemenevoorwaardentwentheuitvaartverzekering2018.pdf)
+- [Bijzondere voorwaarden 2018](https://www.twenthe.nl/bijzonderevoorwaardentwentheuitvaartverzekering2018.pdf)
+- [Privacy verklaring](https://www.twenthe.nl/privacyverklaringtwentheuitvaartverzekering2018.pdf)
+- [Fraudeverklaring 2022](https://www.twenthe.nl/fraudeverklaringtwenthe2022website.pdf)
+- [Dienstverleningsdocument 2023.5](https://www.twenthe.nl/dienstverleningsdocument20235inclusiefverzekeringskaartenvergelijkingswijzerinpdf.pdf)
+
+## Veelgestelde vragen
+
+- **Wat is een natura uitvaartverzekering?** Het verzekerde bedrag wordt direct uitbetaald aan de uitvaartverzorger naar keuze van de nabestaanden, niet aan de nabestaanden zelf.
+- **Vrije keuze uitvaartverzorger?** Ja, volledig. Twenthe werkt samen met meer dan 200 uitvaartverenigingen in Nederland.
+- **Pakketten?** Geen verplichte pakketten — u besteedt het verzekerde bedrag zoals u wilt.
+- **Kinderen meeverzekerd?** Bij gezinsverzekering zijn kinderen tot 18 jaar gratis meeverzekerd.
+- **Buitenland?** Bij overlijden in Europa is vervoer naar Nederland aanvullend verzekerd.
+
+## Optional
+
+- [Verbond van Verzekeraars](https://www.verzekeraars.nl/): Brancheorganisatie waarvan Twenthe lid is.
+- [KiFiD](https://www.kifid.nl/): Klachteninstituut financiële dienstverlening.

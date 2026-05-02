@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mijn Uitvaartwensen — Twenthe Uitvaartverzekering</title>
+<meta name="description" content="Leg uw uitvaartwensen vast in een persoonlijk wensenformulier. Beschrijf uw voorkeuren voor de uitvaart, ceremonie, muziek en meer.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyOCAzNiI+PHBhdGggZD0iTTE0IDEgQyA1IDcsIDEgMTcsIDMgMjYgQyA0LjUgMzIsIDE0IDM1LCAxNCAzNSBMIDE0IDE4IFoiIGZpbGw9IiM0Y2FmMWEiLz48cGF0aCBkPSJNMTQgMSBDIDIzIDcsIDI3IDE3LCAyNSAyNiBDIDIzLjUgMzIsIDE0IDM1LCAxNCAzNSBMIDE0IDE4IFoiIGZpbGw9IiM0Y2FmMWEiIG9wYWNpdHk9IjAuNTUiLz48L3N2Zz4=">
+<link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyOCAzNiI+PHBhdGggZD0iTTE0IDEgQyA1IDcsIDEgMTcsIDMgMjYgQyA0LjUgMzIsIDE0IDM1LCAxNCAzNSBMIDE0IDE4IFoiIGZpbGw9IiM0Y2FmMWEiLz48cGF0aCBkPSJNMTQgMSBDIDIzIDcsIDI3IDE3LCAyNSAyNiBDIDIzLjUgMzIsIDE0IDM1LCAxNCAzNSBMIDE0IDE4IFoiIGZpbGw9IiM0Y2FmMWEiIG9wYWNpdHk9IjAuNTUiLz48L3N2Zz4=">
+<link rel="canonical" href="https://www.twenthe.nl/wensen.html">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="nl_NL">
+<meta property="og:url" content="https://www.twenthe.nl/wensen.html">
+<meta property="og:site_name" content="Twenthe Uitvaartverzekering">
+<meta property="og:title" content="Mijn Uitvaartwensen — Twenthe Uitvaartverzekering">
+<meta property="og:description" content="Leg uw uitvaartwensen vast in een persoonlijk wensenformulier. Beschrijf uw voorkeuren voor de uitvaart, ceremonie, muziek en meer.">
+<meta property="og:image" content="https://www.twenthe.nl/assets/banner.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="alternate" type="application/json" href="/tarieven.json" title="Premie tarieven 2026 (JSON)">
+<link rel="alternate" type="text/markdown" href="/tarieven.md" title="Premie tarieven 2026 (Markdown)">
+<link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-friendly site summary">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Mijn Uitvaartwensen Formulier","url":"https://www.twenthe.nl/wensen.html","applicationCategory":"BusinessApplication","operatingSystem":"Web","description":"Online formulier waarmee verzekerden hun uitvaartwensen kunnen vastleggen voor hun nabestaanden.","inLanguage":"nl-NL","isAccessibleForFree":true}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+  --green:#4caf1a;
+  --green-dark:#388e0e;
+  --green-darker:#1f4d0a;
+  --green-soft:#e8f5e8;
+  --green-bg:#f4faf2;
+  --pink:#e63960;
+  --pink-dark:#c92850;
+  --orange:#e89623;
+  --indigo:#5b5fc7;
+  --cream:#faf7f0;
+  --cream-2:#f4ede0;
+  --paper:#fdfbf6;
+  --ink:#1a2418;
+  --ink-soft:#5a635a;
+  --ink-light:#9aa098;
+  --line:#e8e4d8;
+  --line-soft:#f0ece0;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:"Open Sans",sans-serif;
+  font-weight:400;font-size:15px;line-height:1.65;
+  color:var(--ink);background:var(--cream);
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;transition:all .25s;}
+button{font-family:inherit;cursor:pointer;border:none;background:none;}
+
+/* ── Logo component ── */
+.logo{
+  display:inline-flex;align-items:center;gap:12px;
+  color:var(--ink);text-decoration:none;
+  transition:opacity .2s;
+}
+.logo:hover{opacity:.85;}
+.logo-mark{
+  width:30px;height:auto;flex-shrink:0;
+  color:var(--green);
+  display:flex;align-items:center;
+}
+.logo-mark svg{width:100%;height:auto;display:block;}
+.logo-text{display:flex;flex-direction:column;line-height:1;}
+.logo-name{
+  font-family:"Cormorant Garamond",serif;
+  font-style:italic;font-weight:500;
+  font-size:26px;letter-spacing:-.01em;
+  color:inherit;
+}
+.logo-sub{
+  font-family:"Open Sans",sans-serif;
+  font-size:8.5px;font-weight:700;letter-spacing:.32em;
+  text-transform:uppercase;
+  color:var(--ink-soft);
+  margin-top:3px;
+}
+.logo--light{color:#fff;}
+.logo--light .logo-mark{color:#9bc878;}
+.logo--light .logo-sub{color:#9aa898;}
+
+/* ── Top utility bar ── */
+.utility{
+  background:var(--ink);color:#c5cdc1;
+  font-size:12px;padding:8px 0;letter-spacing:.02em;
+}
+.utility-inner{
+  max-width:1400px;margin:0 auto;padding:0 40px;
+  display:flex;justify-content:space-between;align-items:center;
+}
+.utility-left{display:flex;gap:24px;align-items:center;}
+.utility a{color:#c5cdc1;}
+.utility a:hover{color:#fff;}
+.urgent{
+  display:inline-flex;align-items:center;gap:8px;
+  color:#fff;font-weight:600;
+}
+.urgent-dot{
+  width:7px;height:7px;background:var(--pink);
+  border-radius:50%;animation:pulseIt 1.6s infinite;
+}
+@keyframes pulseIt{0%,100%{opacity:1;transform:scale(1);}50%{opacity:.5;transform:scale(1.3);}}
+
+/* ── Header ── */
+.header{
+  background:rgba(250,247,240,.92);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--line-soft);
+  position:sticky;top:0;z-index:100;
+}
+.header-inner{
+  max-width:1400px;margin:0 auto;padding:18px 40px;
+  display:flex;align-items:center;justify-content:space-between;gap:40px;
+}
+.nav{display:flex;gap:32px;align-items:center;flex:1;justify-content:center;}
+.nav a{
+  font-size:13.5px;font-weight:500;color:var(--ink);
+  position:relative;padding:8px 0;
+  letter-spacing:.01em;
+}
+.nav a::after{
+  content:"";position:absolute;left:0;bottom:0;
+  width:0;height:1.5px;background:var(--green);transition:width .3s ease;
+}
+.nav a:hover{color:var(--green-dark);}
+.nav a:hover::after,.nav a.active::after{width:100%;}
+.nav a.active{color:var(--green-dark);font-weight:600;}
+.header-actions{display:flex;align-items:center;gap:12px;}
+.nav-cta{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--ink);color:var(--cream);
+  padding:11px 22px;border-radius:100px;
+  font-size:13px;font-weight:600;letter-spacing:.02em;
+  transition:all .2s;
+}
+.nav-cta:hover{background:var(--green-darker);color:#fff;transform:translateY(-1px);}
+.nav-toggle{display:none;color:var(--ink);font-size:24px;background:none;border:none;cursor:pointer;}
+
+/* ── Buttons ── */
+.btn{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:14px 28px;font-size:14px;font-weight:600;
+  letter-spacing:.02em;
+  border-radius:100px;transition:all .25s;cursor:pointer;
+  font-family:inherit;
+}
+.btn-primary{
+  background:var(--green);color:#fff;
+  box-shadow:0 8px 24px -8px rgba(76,175,26,.4);
+}
+.btn-primary:hover{
+  background:var(--green-dark);transform:translateY(-2px);
+  box-shadow:0 12px 28px -8px rgba(76,175,26,.5);
+  color:#fff;
+}
+.btn-text{
+  color:var(--ink);font-weight:600;font-size:14px;
+  padding:14px 8px;
+  border-bottom:1.5px solid transparent;border-radius:0;
+}
+.btn-text:hover{border-bottom-color:var(--green);color:var(--green-dark);}
+.btn-ghost{
+  background:transparent;color:var(--ink);
+  border:1.5px solid var(--line);
+}
+.btn-ghost:hover{border-color:var(--green);color:var(--green-dark);}
+.arrow{display:inline-block;transition:transform .25s;}
+.btn:hover .arrow{transform:translateX(4px);}
+
+/* ── Page header (subpages) ── */
+.page-head{
+  padding:64px 40px 40px;
+  background:var(--cream);
+  border-bottom:1px solid var(--line-soft);
+}
+.page-head-inner{
+  max-width:1100px;margin:0 auto;text-align:center;
+}
+.crumbs{
+  font-size:11px;text-transform:uppercase;letter-spacing:.32em;
+  color:var(--ink-light);margin-bottom:24px;font-weight:600;
+}
+.crumbs a{color:var(--ink-light);}
+.crumbs a:hover{color:var(--green-dark);}
+.page-head h1{
+  font-family:"Cormorant Garamond",serif;font-weight:500;
+  font-size:clamp(40px,5vw,72px);line-height:1;
+  letter-spacing:-.02em;color:var(--ink);
+  margin-bottom:18px;
+}
+.page-head h1 em{font-style:italic;color:var(--green-dark);}
+.page-head .lede{
+  font-size:17px;color:var(--ink-soft);max-width:560px;
+  margin:0 auto;line-height:1.6;font-weight:300;
+}
+
+/* ── Section base ── */
+section{padding:80px 40px;}
+.container{max-width:1400px;margin:0 auto;}
+.section-kicker{
+  display:inline-flex;align-items:center;gap:12px;
+  font-size:11px;letter-spacing:.32em;text-transform:uppercase;
+  color:var(--green-dark);font-weight:700;
+  margin-bottom:18px;
+}
+.section-kicker::before{content:"";width:32px;height:1.5px;background:var(--green);}
+h2{
+  font-family:"Cormorant Garamond",serif;font-weight:500;
+  font-size:clamp(36px,4vw,56px);line-height:1.05;
+  letter-spacing:-.015em;color:var(--ink);
+}
+h2 em{font-style:italic;color:var(--green-dark);}
+
+/* ── Footer (shared) ── */
+.footer{background:var(--ink);color:#a8b0a4;padding:80px 40px 30px;}
+.footer-grid{
+  max-width:1400px;margin:0 auto 56px;
+  display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:64px;
+}
+.footer-brand p{font-size:13.5px;line-height:1.6;color:#7a8478;max-width:280px;margin:24px 0 24px;}
+.footer-brand .verbond{
+  display:inline-flex;align-items:center;gap:10px;
+  font-size:10.5px;color:#7a8478;font-weight:600;
+  text-transform:uppercase;letter-spacing:.18em;
+}
+.footer-brand .vmark{
+  width:20px;height:14px;background:#9bc878;
+  clip-path:polygon(0 0,50% 100%,100% 0);
+}
+.footer-col h5{
+  font-size:11px;text-transform:uppercase;letter-spacing:.18em;
+  color:#fff;margin-bottom:20px;font-weight:700;
+}
+.footer-col ul{list-style:none;display:flex;flex-direction:column;gap:11px;}
+.footer-col a{font-size:13.5px;color:#a8b0a4;}
+.footer-col a:hover{color:#fff;}
+.footer-contact{display:flex;flex-direction:column;gap:8px;font-size:13.5px;color:#a8b0a4;line-height:1.55;margin-bottom:14px;}
+.footer-contact strong{display:block;color:#fff;font-size:11px;text-transform:uppercase;letter-spacing:.18em;font-weight:700;margin-bottom:2px;}
+.footer-bottom{
+  max-width:1400px;margin:0 auto;padding-top:24px;
+  border-top:1px solid #2a3530;
+  display:flex;justify-content:space-between;align-items:center;
+  font-size:12px;color:#7a8478;flex-wrap:wrap;gap:16px;
+}
+.footer-bottom-links{display:flex;gap:24px;}
+
+/* ── Mobile ── */
+@media (max-width:1100px){
+  .nav{display:none;}
+  .nav-toggle{display:block;}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:48px;}
+}
+@media (max-width:640px){
+  section{padding:60px 24px;}
+  .header-inner,.utility-inner{padding:0 20px;}
+  .page-head{padding:48px 24px 32px;}
+  .footer{padding:60px 24px 30px;}
+  .footer-grid{grid-template-columns:1fr;gap:32px;}
+  .footer-bottom{flex-direction:column;text-align:center;}
+  .utility-left{display:none;}
+  .logo-name{font-size:22px;}
+  .logo-sub{font-size:8px;letter-spacing:.28em;}
+  .logo-mark{width:26px;}
+}
+
+/* Reveal */
+.reveal{opacity:0;transform:translateY(24px);transition:all .8s ease;}
+.reveal.in{opacity:1;transform:translateY(0);}
+
+
+.toolbar{position:sticky;top:73px;z-index:40;background:rgba(250,247,240,.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--line-soft);}
+.toolbar-inner{max-width:920px;margin:0 auto;padding:14px 40px;display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;}
+.save-status{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--ink-soft);}
+.save-dot{width:8px;height:8px;background:var(--green);border-radius:50%;transition:all .3s;}
+.save-dot.saving{background:var(--orange);animation:pulseSave .8s infinite;}
+@keyframes pulseSave{0%,100%{opacity:1;}50%{opacity:.4;}}
+.toolbar-actions{display:flex;gap:8px;flex-wrap:wrap;}
+.tool-btn{display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border:1px solid var(--line);border-radius:100px;background:#fff;color:var(--ink);font-family:inherit;font-size:13px;font-weight:600;cursor:pointer;transition:all .2s;}
+.tool-btn:hover{border-color:var(--green);color:var(--green-dark);}
+.tool-btn.danger:hover{border-color:var(--pink);color:var(--pink);}
+.tool-btn.primary{background:var(--ink);color:#fff;border-color:var(--ink);}
+.tool-btn.primary:hover{background:var(--green-dark);color:#fff;border-color:var(--green-dark);}
+
+.form-wrap{max-width:920px;margin:0 auto;padding:32px 40px 80px;}
+.intro-card{background:linear-gradient(135deg,var(--green-bg) 0%,var(--paper) 100%);border:1px solid var(--green);border-radius:6px;padding:28px 32px;margin-bottom:32px;display:flex;gap:20px;align-items:flex-start;}
+.intro-card .ico{flex-shrink:0;width:56px;height:56px;background:var(--green);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:22px;}
+.intro-card h3{font-family:"Cormorant Garamond",serif;font-weight:500;font-size:26px;color:var(--ink);margin-bottom:8px;line-height:1.2;}
+.intro-card h3 em{font-style:italic;color:var(--green-dark);}
+.intro-card p{font-size:14px;color:var(--ink-soft);line-height:1.6;}
+
+.toc{background:#fff;border:1px solid var(--line);border-radius:6px;padding:24px 28px;margin-bottom:24px;}
+.toc h4{font-family:"Cormorant Garamond",serif;font-weight:500;font-size:20px;color:var(--ink);margin-bottom:14px;}
+.toc h4 em{font-style:italic;color:var(--green-dark);}
+.toc ol{list-style:none;counter-reset:toc;display:grid;grid-template-columns:repeat(2,1fr);gap:8px 18px;}
+.toc ol li{counter-increment:toc;font-size:13px;display:flex;gap:10px;align-items:baseline;}
+.toc ol li::before{content:counter(toc,decimal-leading-zero);font-family:"Cormorant Garamond",serif;font-style:italic;color:var(--green-dark);font-size:14px;font-weight:500;}
+.toc a{color:var(--ink-soft);}
+.toc a:hover{color:var(--green-dark);}
+
+.section{background:#fff;border:1px solid var(--line);border-radius:6px;padding:36px 40px;margin-bottom:20px;scroll-margin-top:160px;}
+.section-head{display:flex;justify-content:space-between;align-items:flex-start;gap:24px;margin-bottom:6px;}
+.section-num{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:14px;color:var(--ink-light);font-weight:500;letter-spacing:.18em;text-transform:uppercase;flex-shrink:0;margin-top:8px;}
+.section h2{font-family:"Cormorant Garamond",serif;font-weight:500;font-size:30px;line-height:1.2;color:var(--ink);margin-bottom:8px;}
+.section h2 em{font-style:italic;color:var(--green-dark);}
+.section-desc{font-size:14px;color:var(--ink-soft);margin-bottom:24px;line-height:1.6;}
+
+.field-block{display:flex;flex-direction:column;gap:8px;margin-bottom:18px;}
+.field-block:last-child{margin-bottom:0;}
+.field-block label{font-size:11px;color:var(--ink);font-weight:700;text-transform:uppercase;letter-spacing:.18em;}
+.field-block .hint{font-size:12px;color:var(--ink-light);font-style:italic;margin-top:-2px;}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+input[type=text],input[type=email],input[type=tel],input[type=date],input[type=number],select,textarea{
+  width:100%;padding:12px 16px;font-size:14px;color:var(--ink);font-family:inherit;
+  border:1.5px solid var(--line);border-radius:3px;background:#fff;outline:none;transition:all .2s;
+}
+select{appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path d='M1 1l4 4 4-4' stroke='%234caf1a' stroke-width='1.5' fill='none' stroke-linecap='round'/></svg>");background-repeat:no-repeat;background-position:right 16px center;padding-right:36px;cursor:pointer;}
+textarea{resize:vertical;min-height:80px;line-height:1.5;}
+input:focus,select:focus,textarea:focus{border-color:var(--green);box-shadow:0 0 0 4px rgba(76,175,26,.12);}
+
+.choice-row{display:flex;flex-wrap:wrap;gap:10px;}
+.choice-row.cols-3 > *{flex:1 1 calc(33% - 10px);min-width:140px;}
+.choice-row.cols-2 > *{flex:1 1 calc(50% - 10px);min-width:160px;}
+.choice{display:flex;align-items:center;gap:10px;padding:12px 16px;border:1.5px solid var(--line);border-radius:3px;background:#fff;cursor:pointer;font-size:14px;color:var(--ink);transition:all .2s;flex:1;font-family:inherit;}
+.choice:hover{border-color:var(--green);background:var(--green-bg);}
+.choice input{appearance:none;-webkit-appearance:none;width:18px;height:18px;flex-shrink:0;border:1.5px solid var(--line);background:#fff;cursor:pointer;position:relative;transition:all .2s;}
+.choice input[type=radio]{border-radius:50%;}
+.choice input[type=checkbox]{border-radius:3px;}
+.choice input:checked{background:var(--green);border-color:var(--green);}
+.choice input[type=radio]:checked::after{content:"";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:8px;height:8px;background:#fff;border-radius:50%;}
+.choice input[type=checkbox]:checked::after{content:"✓";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#fff;font-size:12px;font-weight:bold;}
+.choice:has(input:checked){border-color:var(--green);background:var(--green-bg);box-shadow:0 0 0 3px rgba(76,175,26,.1);}
+
+.contact-row{display:grid;grid-template-columns:1fr 1fr 1fr 36px;gap:8px;align-items:end;background:var(--cream);padding:14px;border-radius:3px;margin-bottom:8px;border:1px solid var(--line);}
+.contact-row label{font-size:10px;}
+.contact-row input{padding:9px 12px;font-size:13px;}
+.contact-row .remove-contact{background:none;border:1px solid var(--line);color:var(--pink);font-size:14px;border-radius:3px;height:36px;transition:all .2s;cursor:pointer;}
+.contact-row .remove-contact:hover{background:var(--pink);color:#fff;border-color:var(--pink);}
+.add-contact-btn{width:100%;padding:14px;background:var(--green-bg);border:1.5px dashed var(--green);border-radius:3px;color:var(--green-dark);font-family:inherit;font-size:13px;font-weight:600;cursor:pointer;transition:all .2s;margin-top:8px;}
+.add-contact-btn:hover{background:var(--green-soft);border-style:solid;}
+
+.actions-block{background:linear-gradient(135deg,var(--ink) 0%,#0f1610 100%);color:#fff;border-radius:8px;padding:40px;margin-top:32px;position:relative;overflow:hidden;box-shadow:0 24px 60px -20px rgba(0,0,0,.25);}
+.actions-block::before{content:"";position:absolute;top:-100px;right:-100px;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(76,175,26,.2),transparent 70%);}
+.actions-block-inner{position:relative;z-index:1;}
+.actions-block h3{font-family:"Cormorant Garamond",serif;font-weight:500;font-size:32px;color:#fff;margin-bottom:10px;}
+.actions-block h3 em{font-style:italic;color:#9bc878;}
+.actions-block p{color:#c8d4be;font-size:14px;line-height:1.6;margin-bottom:24px;max-width:580px;font-weight:300;}
+.actions-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+.action-btn{padding:14px 18px;border:1.5px solid rgba(255,255,255,.3);background:rgba(255,255,255,.08);color:#fff;border-radius:100px;font-family:inherit;font-size:13px;font-weight:600;cursor:pointer;transition:all .2s;display:flex;align-items:center;justify-content:center;gap:8px;}
+.action-btn:hover{background:rgba(255,255,255,.18);border-color:#fff;color:#fff;}
+.action-btn.primary{background:#fff;color:var(--ink);border-color:#fff;}
+.action-btn.primary:hover{background:var(--cream);}
+
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(100px);background:var(--ink);color:#fff;padding:12px 22px;border-radius:100px;font-size:13px;font-weight:600;box-shadow:0 8px 24px rgba(0,0,0,.2);z-index:1000;transition:transform .3s ease;}
+.toast.show{transform:translateX(-50%) translateY(0);}
+
+@media (max-width:760px){
+  .toolbar-inner{padding:14px 20px;}
+  .form-wrap{padding:24px 20px 60px;}
+  .section{padding:28px 24px;}
+  .section h2{font-size:24px;}
+  .grid-2{grid-template-columns:1fr;gap:14px;}
+  .toc ol{grid-template-columns:1fr;}
+  .actions-grid{grid-template-columns:1fr;}
+  .actions-block{padding:28px 24px;}
+  .contact-row{grid-template-columns:1fr 1fr;}
+  .contact-row .remove-contact{grid-column:1 / -1;}
+}
+
+@media print{
+  .utility,.header,.toolbar,.actions-block,.footer,.intro-card,.toc,.add-contact-btn,.remove-contact{display:none!important;}
+  .form-wrap{padding:0;max-width:100%;}
+  .page-head{padding:0 0 16pt 0;border-bottom:2pt solid var(--green-darker);}
+  .page-head h1{font-size:24pt;color:var(--green-darker);}
+  .page-head .lede,.crumbs{display:none;}
+  .section{box-shadow:none;border:none;border-top:1pt solid #ddd;padding:14pt 0;margin-bottom:0;page-break-inside:avoid;}
+  .section h2{font-size:14pt;color:var(--green-darker);margin-bottom:6pt;}
+  .section-num{display:inline;font-size:9pt;}
+  .section-desc{font-size:9pt;color:#666;margin-bottom:8pt;}
+  .field-block{margin-bottom:6pt;page-break-inside:avoid;}
+  .field-block label{font-size:8pt;color:#666;}
+  input,select,textarea{border:none;border-bottom:1pt solid #999;border-radius:0;padding:2pt 0;font-size:10pt;background:transparent!important;}
+  textarea{min-height:auto;}
+  select{appearance:none;background:none;padding-right:0;}
+  .choice{border:1pt solid #999;padding:4pt 8pt;font-size:9pt;background:transparent;}
+  .choice:has(input:checked){background:#e8f5e8!important;border-color:#388e0e;font-weight:bold;}
+  .choice input{display:none;}
+  .choice:has(input:checked)::before{content:"✓ ";color:#2d7008;font-weight:bold;}
+  .contact-row{border:1pt solid #ddd;padding:6pt;margin-bottom:4pt;background:transparent!important;}
+}
+
+</style>
+</head>
+<body>
+
+<div class="utility">
+  <div class="utility-inner">
+    <div class="utility-left">
+      <a href="tel:0534312732">053 – 4312 732</a>
+      <a href="mailto:info@twenthe.nl">info@twenthe.nl</a>
+    </div>
+    <div>
+      <a href="#sterfgeval" class="urgent"><span class="urgent-dot"></span> Sterfgeval melden — 053 480 3543 (24/7)</a>
+    </div>
+  </div>
+</div>
+<header class="header">
+  <div class="header-inner">
+    <a href="index.html" class="logo" aria-label="Twenthe Uitvaartverzekering — naar home">
+  <span class="logo-mark"><svg viewBox="0 0 28 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<path d="M14 1 C 5 7, 1 17, 3 26 C 4.5 32, 14 35, 14 35 L 14 18 Z" fill="currentColor"/>
+<path d="M14 1 C 23 7, 27 17, 25 26 C 23.5 32, 14 35, 14 35 L 14 18 Z" fill="currentColor" opacity="0.55"/>
+<path d="M14 4 L 14 35" stroke="white" stroke-width="0.6" opacity="0.35"/>
+</svg></span>
+  <span class="logo-text">
+    <span class="logo-name">Twenthe</span>
+    <span class="logo-sub">Uitvaartverzekering</span>
+  </span>
+</a>
+    <nav class="nav" id="mainNav">
+      <a href="index.html#over">Over Twenthe</a>
+      <a href="index.html#verzekeringen">Verzekeringen</a>
+      <a href="premie.html">Premie berekenen</a>
+      <a href="uitvaartwaardemeter.html">Uitvaartkosten</a>
+      <a href="wensen.html" class="active">Mijn wensen</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a href="login.html" class="nav-cta">Mijn Twenthe →</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+
+<section class="page-head">
+  <div class="page-head-inner">
+    <div class="crumbs"><a href="index.html">Home</a> &nbsp;/&nbsp; Mijn uitvaartwensen</div>
+    <h1>Mijn <em>uitvaartwensen</em></h1>
+    <p class="lede">Een persoonlijk wensenformulier waarin u vastlegt hoe uw afscheid eruit mag zien. Uw nabestaanden hoeven dan niet te raden — ze weten precies wat u wilt.</p>
+  </div>
+</section>
+
+<div class="toolbar">
+  <div class="toolbar-inner">
+    <div class="save-status" id="saveStatus">
+      <span class="save-dot" id="saveDot"></span>
+      <span id="saveText">Opgeslagen op dit apparaat</span>
+    </div>
+    <div class="toolbar-actions">
+      <button class="tool-btn" onclick="window.print()">⎙ Print / PDF</button>
+      <button class="tool-btn" onclick="emailWensen()">✉ E‑mail</button>
+      <button class="tool-btn primary" onclick="exportJSON()">⤓ Download</button>
+      <button class="tool-btn danger" onclick="resetForm()">⌫ Wissen</button>
+    </div>
+  </div>
+</div>
+
+<form id="wensenForm" class="form-wrap" onsubmit="return false;">
+  <div class="intro-card">
+    <div class="ico">♡</div>
+    <div>
+      <h3>Een persoonlijk <em>document</em> voor uw nabestaanden</h3>
+      <p>Vul in wat u belangrijk vindt — alle velden zijn optioneel. Uw antwoorden worden automatisch opgeslagen op uw eigen apparaat (niets wordt naar Twenthe verzonden). Wij raden aan om dit document na invullen <strong>te printen</strong> en te bewaren bij uw belangrijke papieren, of een kopie te geven aan een vertrouwd persoon.</p>
+    </div>
+  </div>
+
+  <div class="toc">
+    <h4>Onderdelen</h4>
+    <ol>
+      <li><a href="#s1">Persoonlijke gegevens</a></li>
+      <li><a href="#s2">Soort uitvaart</a></li>
+      <li><a href="#s3">Afscheidsdienst &amp; ceremonie</a></li>
+      <li><a href="#s4">Verzorging &amp; opbaring</a></li>
+      <li><a href="#s5">Kist of urn</a></li>
+      <li><a href="#s6">Bloemen</a></li>
+      <li><a href="#s7">Rouwbrieven &amp; bekendmaking</a></li>
+      <li><a href="#s8">Vervoer</a></li>
+      <li><a href="#s9">Ontvangst / koffietafel</a></li>
+      <li><a href="#s10">Bestemming &amp; gedenkteken</a></li>
+      <li><a href="#s11">Persoonlijke boodschap</a></li>
+      <li><a href="#s12">Praktische zaken</a></li>
+    </ol>
+  </div>
+
+  <section class="section" id="s1">
+    <div class="section-head"><div><h2>Persoonlijke <em>gegevens</em></h2><p class="section-desc">Wie bent u, en welke verzekering heeft u bij Twenthe?</p></div><span class="section-num">01</span></div>
+    <div class="grid-2">
+      <div class="field-block"><label for="naam">Volledige naam</label><input type="text" id="naam" name="naam" placeholder="Voor- en achternaam"></div>
+      <div class="field-block"><label for="geboortedatum">Geboortedatum</label><input type="date" id="geboortedatum" name="geboortedatum"></div>
+    </div>
+    <div class="grid-2">
+      <div class="field-block"><label for="adres">Adres (straat &amp; huisnummer)</label><input type="text" id="adres" name="adres"></div>
+      <div class="field-block"><label for="woonplaats">Postcode &amp; woonplaats</label><input type="text" id="woonplaats" name="woonplaats"></div>
+    </div>
+    <div class="grid-2">
+      <div class="field-block"><label for="polisnr">Polisnummer Twenthe</label><input type="text" id="polisnr" name="polisnr"><span class="hint">Vindt u op uw polisblad.</span></div>
+      <div class="field-block"><label for="bsn">BSN (optioneel)</label><input type="text" id="bsn" name="bsn"><span class="hint">Alleen lokaal opgeslagen, niet verzonden.</span></div>
+    </div>
+  </section>
+
+  <section class="section" id="s2">
+    <div class="section-head"><div><h2>Soort <em>uitvaart</em></h2><p class="section-desc">De grootste keuze: begrafenis of crematie?</p></div><span class="section-num">02</span></div>
+    <div class="field-block"><label>Mijn voorkeur</label>
+      <div class="choice-row cols-3">
+        <label class="choice"><input type="radio" name="soort" value="begrafenis"> Begrafenis</label>
+        <label class="choice"><input type="radio" name="soort" value="crematie"> Crematie</label>
+        <label class="choice"><input type="radio" name="soort" value="geen-voorkeur"> Geen voorkeur</label>
+      </div>
+    </div>
+    <div class="field-block"><label for="locatieVoorkeur">Voorkeur locatie</label><input type="text" id="locatieVoorkeur" name="locatieVoorkeur" placeholder="Bijv. begraafplaats Usselo"></div>
+    <div class="field-block"><label for="soortToelichting">Toelichting</label><textarea id="soortToelichting" name="soortToelichting" placeholder="Bijvoorbeeld: bij familiegraf bij ouders, of as verstrooien op vaste plek..."></textarea></div>
+  </section>
+
+  <section class="section" id="s3">
+    <div class="section-head"><div><h2>Afscheidsdienst &amp; <em>ceremonie</em></h2><p class="section-desc">De vorm en sfeer van het afscheid.</p></div><span class="section-num">03</span></div>
+    <div class="field-block"><label>Karakter ceremonie</label>
+      <div class="choice-row cols-3">
+        <label class="choice"><input type="radio" name="karakter" value="religieus"> Religieus</label>
+        <label class="choice"><input type="radio" name="karakter" value="seculier"> Seculier</label>
+        <label class="choice"><input type="radio" name="karakter" value="gemengd"> Gemengd / persoonlijk</label>
+      </div>
+    </div>
+    <div class="field-block"><label>Wie mogen erbij zijn?</label>
+      <div class="choice-row cols-3">
+        <label class="choice"><input type="radio" name="genodigden" value="open"> Open voor iedereen</label>
+        <label class="choice"><input type="radio" name="genodigden" value="familie"> Familie en vrienden</label>
+        <label class="choice"><input type="radio" name="genodigden" value="besloten"> Strikt besloten</label>
+      </div>
+    </div>
+    <div class="grid-2">
+      <div class="field-block"><label for="ceremonieLocatie">Voorkeur locatie</label><input type="text" id="ceremonieLocatie" name="ceremonieLocatie"></div>
+      <div class="field-block"><label for="voorganger">Voorganger / spreker</label><input type="text" id="voorganger" name="voorganger"></div>
+    </div>
+    <div class="field-block"><label for="muziek">Muziekkeuze</label><textarea id="muziek" name="muziek" rows="3"></textarea></div>
+    <div class="field-block"><label for="teksten">Gedichten, lezingen of teksten</label><textarea id="teksten" name="teksten" rows="3"></textarea></div>
+    <div class="field-block"><label for="sprekers">Sprekers (wie mag het woord voeren?)</label><textarea id="sprekers" name="sprekers" rows="2"></textarea></div>
+    <div class="field-block"><label for="ceremonieExtra">Andere wensen</label><textarea id="ceremonieExtra" name="ceremonieExtra"></textarea></div>
+  </section>
+
+  <section class="section" id="s4">
+    <div class="section-head"><div><h2>Verzorging &amp; <em>opbaring</em></h2><p class="section-desc">Hoe wilt u verzorgd worden, en waar wilt u opgebaard liggen?</p></div><span class="section-num">04</span></div>
+    <div class="field-block"><label>Plaats van opbaring</label>
+      <div class="choice-row cols-3">
+        <label class="choice"><input type="radio" name="opbaring" value="thuis"> Thuis</label>
+        <label class="choice"><input type="radio" name="opbaring" value="rouwcentrum"> Rouwcentrum</label>
+        <label class="choice"><input type="radio" name="opbaring" value="geen"> Geen voorkeur</label>
+      </div>
+    </div>
+    <div class="grid-2">
+      <div class="field-block"><label for="kleding">Kleding</label><input type="text" id="kleding" name="kleding"></div>
+      <div class="field-block"><label for="sieraden">Sieraden</label><input type="text" id="sieraden" name="sieraden"></div>
+    </div>
+    <div class="field-block"><label for="meegeven">Persoonlijke spullen mee in kist / urn</label><textarea id="meegeven" name="meegeven" rows="2"></textarea></div>
+    <div class="field-block"><label for="verzorgingExtra">Wensen voor verzorging</label><textarea id="verzorgingExtra" name="verzorgingExtra"></textarea></div>
+  </section>
+
+  <section class="section" id="s5">
+    <div class="section-head"><div><h2>Kist of <em>urn</em></h2><p class="section-desc">Materiaal, uiterlijk en bijzonderheden.</p></div><span class="section-num">05</span></div>
+    <div class="field-block"><label>Type kist</label>
+      <div class="choice-row cols-3">
+        <label class="choice"><input type="radio" name="kist" value="eenvoudig"> Eenvoudig</label>
+        <label class="choice"><input type="radio" name="kist" value="standaard"> Standaard</label>
+        <label class="choice"><input type="radio" name="kist" value="luxe"> Luxe</label>
+        <label class="choice"><input type="radio" name="kist" value="biologisch"> Biologisch</label>
+        <label class="choice"><input type="radio" name="kist" value="zelfgemaakt"> Zelfgemaakt</label>
+        <label class="choice"><input type="radio" name="kist" value="anders"> Anders</label>
+      </div>
+    </div>
+    <div class="grid-2">
+      <div class="field-block"><label for="kistMateriaal">Materiaal/kleur</label><input type="text" id="kistMateriaal" name="kistMateriaal"></div>
+      <div class="field-block"><label for="urnVoorkeur">Urn (bij crematie)</label><input type="text" id="urnVoorkeur" name="urnVoorkeur"></div>
+    </div>
+    <div class="field-block"><label for="kistDecoratie">Decoratie of tekst</label><textarea id="kistDecoratie" name="kistDecoratie" rows="2"></textarea></div>
+  </section>
+
+  <section class="section" id="s6">
+    <div class="section-head"><div><h2>Bloemen</h2><p class="section-desc">Of juist géén bloemen, maar een andere bestemming.</p></div><span class="section-num">06</span></div>
+    <div class="field-block"><label>Bloemen bij de uitvaart</label>
+      <div class="choice-row cols-3">
+        <label class="choice"><input type="radio" name="bloemen" value="ja"> Graag bloemen</label>
+        <label class="choice"><input type="radio" name="bloemen" value="alleen-familie"> Alleen van familie</label>
+        <label class="choice"><input type="radio" name="bloemen" value="nee"> Geen bloemen</label>
+      </div>
+    </div>
+    <div class="grid-2">
+      <div class="field-block"><label for="bloemenType">Type/kleur voorkeur</label><input type="text" id="bloemenType" name="bloemenType"></div>
+      <div class="field-block"><label for="goedeDoel">In plaats van bloemen — donatie aan</label><input type="text" id="goedeDoel" name="goedeDoel"></div>
+    </div>
+  </section>
+
+  <section class="section" id="s7">
+    <div class="section-head"><div><h2>Rouwbrieven &amp; <em>bekendmaking</em></h2><p class="section-desc">Hoe het overlijden bekend mag worden gemaakt.</p></div><span class="section-num">07</span></div>
+    <div class="field-block"><label>Rouwbrieven (kaarten)</label>
+      <div class="choice-row cols-3">
+        <label class="choice"><input type="radio" name="rouwbrieven" value="ja"> Versturen</label>
+        <label class="choice"><input type="radio" name="rouwbrieven" value="beperkt"> Alleen aan naasten</label>
+        <label class="choice"><input type="radio" name="rouwbrieven" value="nee"> Geen rouwbrieven</label>
+      </div>
+    </div>
+    <div class="field-block"><label>Advertentie</label>
+      <div class="choice-row cols-3">
+        <label class="choice"><input type="checkbox" name="advRegionaal"> Regionaal</label>
+        <label class="choice"><input type="checkbox" name="advLandelijk"> Landelijk</label>
+        <label class="choice"><input type="checkbox" name="advGeen"> Geen</label>
+      </div>
+    </div>
+    <div class="field-block"><label>Sociale media</label>
+      <div class="choice-row cols-2">
+        <label class="choice"><input type="radio" name="socialMedia" value="ja"> Mag bekend worden gemaakt</label>
+        <label class="choice"><input type="radio" name="socialMedia" value="nee"> Liever niet</label>
+      </div>
+    </div>
+    <div class="field-block"><label for="rouwbriefTekst">Tekst voor rouwbrief / advertentie</label><textarea id="rouwbriefTekst" name="rouwbriefTekst" rows="3"></textarea></div>
+  </section>
+
+  <section class="section" id="s8">
+    <div class="section-head"><div><h2>Vervoer</h2><p class="section-desc">Hoe wilt u vervoerd worden naar de ceremonie of begraafplaats?</p></div><span class="section-num">08</span></div>
+    <div class="field-block"><label>Type rouwvervoer</label>
+      <div class="choice-row cols-3">
+        <label class="choice"><input type="radio" name="vervoer" value="standaard"> Standaard</label>
+        <label class="choice"><input type="radio" name="vervoer" value="paardenkoets"> Paard en koets</label>
+        <label class="choice"><input type="radio" name="vervoer" value="motor"> Rouwmotor</label>
+        <label class="choice"><input type="radio" name="vervoer" value="bijzonder"> Iets bijzonders</label>
+      </div>
+    </div>
+    <div class="grid-2">
+      <div class="field-block"><label for="volgautos">Aantal volgauto&apos;s</label>
+        <select id="volgautos" name="volgautos">
+          <option value="">Geen voorkeur</option>
+          <option value="0">Geen</option>
+          <option value="1">1 volgauto</option>
+          <option value="2">2 volgauto&apos;s</option>
+          <option value="3">3 volgauto&apos;s</option>
+        </select>
+      </div>
+      <div class="field-block"><label for="vervoerExtra">Andere wensen</label><input type="text" id="vervoerExtra" name="vervoerExtra"></div>
+    </div>
+  </section>
+
+  <section class="section" id="s9">
+    <div class="section-head"><div><h2>Ontvangst &amp; <em>koffietafel</em></h2><p class="section-desc">Het samenzijn na de ceremonie.</p></div><span class="section-num">09</span></div>
+    <div class="field-block"><label>Wel of geen koffietafel?</label>
+      <div class="choice-row cols-3">
+        <label class="choice"><input type="radio" name="koffietafel" value="ja"> Graag</label>
+        <label class="choice"><input type="radio" name="koffietafel" value="beperkt"> Alleen voor familie</label>
+        <label class="choice"><input type="radio" name="koffietafel" value="nee"> Geen koffietafel</label>
+      </div>
+    </div>
+    <div class="grid-2">
+      <div class="field-block"><label for="koffieLocatie">Locatie</label><input type="text" id="koffieLocatie" name="koffieLocatie"></div>
+      <div class="field-block"><label for="koffieAantal">Aantal personen</label><input type="text" id="koffieAantal" name="koffieAantal"></div>
+    </div>
+    <div class="field-block"><label for="koffieCatering">Wensen voor catering</label><textarea id="koffieCatering" name="koffieCatering" rows="2"></textarea></div>
+  </section>
+
+  <section class="section" id="s10">
+    <div class="section-head"><div><h2>Bestemming &amp; <em>gedenkteken</em></h2><p class="section-desc">Het graf, de urn of asbestemming.</p></div><span class="section-num">10</span></div>
+    <div class="field-block"><label>Bij begrafenis — type graf</label>
+      <div class="choice-row cols-3">
+        <label class="choice"><input type="radio" name="grafType" value="eigen"> Eigen graf</label>
+        <label class="choice"><input type="radio" name="grafType" value="algemeen"> Algemeen graf</label>
+        <label class="choice"><input type="radio" name="grafType" value="familie"> Familiegraf</label>
+        <label class="choice"><input type="radio" name="grafType" value="natuur"> Natuurbegraafplaats</label>
+      </div>
+    </div>
+    <div class="field-block"><label>Bij crematie — bestemming as</label>
+      <div class="choice-row cols-3">
+        <label class="choice"><input type="radio" name="asBestemming" value="urnThuis"> Urn thuis</label>
+        <label class="choice"><input type="radio" name="asBestemming" value="urnenmuur"> Urnengalerij</label>
+        <label class="choice"><input type="radio" name="asBestemming" value="verstrooien"> Verstrooien</label>
+        <label class="choice"><input type="radio" name="asBestemming" value="natuur"> Natuurbegraafplaats</label>
+        <label class="choice"><input type="radio" name="asBestemming" value="sieraad"> Gedenksieraad</label>
+      </div>
+    </div>
+    <div class="grid-2">
+      <div class="field-block"><label for="verstrooiPlek">Voorkeursplek</label><input type="text" id="verstrooiPlek" name="verstrooiPlek"></div>
+      <div class="field-block"><label for="grafsteen">Type gedenkteken</label>
+        <select id="grafsteen" name="grafsteen">
+          <option value="">Geen voorkeur</option>
+          <option value="staand">Staande grafsteen</option>
+          <option value="liggend">Liggende grafsteen</option>
+          <option value="monument">Grafmonument</option>
+          <option value="natuur">Natuursteen</option>
+          <option value="geen">Geen gedenkteken</option>
+        </select>
+      </div>
+    </div>
+    <div class="field-block"><label for="grafsteenTekst">Tekst op gedenkteken</label><textarea id="grafsteenTekst" name="grafsteenTekst" rows="2"></textarea></div>
+  </section>
+
+  <section class="section" id="s11">
+    <div class="section-head"><div><h2>Persoonlijke <em>boodschap</em></h2><p class="section-desc">Een laatste boodschap aan uw nabestaanden.</p></div><span class="section-num">11</span></div>
+    <div class="field-block"><label for="boodschap">Mijn boodschap aan mijn nabestaanden</label><textarea id="boodschap" name="boodschap" rows="6"></textarea></div>
+  </section>
+
+  <section class="section" id="s12">
+    <div class="section-head"><div><h2>Praktische <em>zaken</em></h2><p class="section-desc">Belangrijke contactpersonen en informatie.</p></div><span class="section-num">12</span></div>
+    <div class="field-block"><label>Wie moet als eerste gebeld worden? (max. 3)</label>
+      <div id="contactsContainer"></div>
+      <button type="button" class="add-contact-btn" onclick="addContact()">+ Contactpersoon toevoegen</button>
+    </div>
+    <div class="grid-2">
+      <div class="field-block"><label for="notaris">Notaris</label><input type="text" id="notaris" name="notaris"></div>
+      <div class="field-block"><label for="huisarts">Huisarts</label><input type="text" id="huisarts" name="huisarts"></div>
+    </div>
+    <div class="field-block"><label for="documenten">Waar liggen mijn belangrijke documenten?</label><textarea id="documenten" name="documenten" rows="2"></textarea></div>
+    <div class="field-block"><label for="wachtwoorden">Hoe komen nabestaanden bij mijn digitale accounts?</label><textarea id="wachtwoorden" name="wachtwoorden" rows="2"></textarea><span class="hint">Vermeld geen wachtwoorden direct — alleen waar deze te vinden zijn.</span></div>
+    <div class="grid-2">
+      <div class="field-block"><label>Donor</label>
+        <div class="choice-row cols-2">
+          <label class="choice"><input type="radio" name="donor" value="ja"> Ja</label>
+          <label class="choice"><input type="radio" name="donor" value="nee"> Nee</label>
+        </div>
+      </div>
+      <div class="field-block"><label>Lichaam ter beschikking wetenschap</label>
+        <div class="choice-row cols-2">
+          <label class="choice"><input type="radio" name="wetenschap" value="ja"> Ja</label>
+          <label class="choice"><input type="radio" name="wetenschap" value="nee"> Nee</label>
+        </div>
+      </div>
+    </div>
+    <div class="field-block"><label for="huisdier">Wie zorgt voor mijn huisdier(en)?</label><input type="text" id="huisdier" name="huisdier"></div>
+    <div class="field-block"><label for="praktischExtra">Andere praktische zaken</label><textarea id="praktischExtra" name="praktischExtra" rows="2"></textarea></div>
+    <div class="field-block"><label for="datumIngevuld">Datum ingevuld / bijgewerkt</label><input type="date" id="datumIngevuld" name="datumIngevuld"></div>
+  </section>
+
+  <div class="actions-block">
+    <div class="actions-block-inner">
+      <h3>Klaar? <em>Bewaar uw wensen veilig.</em></h3>
+      <p>Uw antwoorden zijn opgeslagen op dit apparaat. Wij raden sterk aan om dit document te <strong>printen</strong> en op te bergen bij uw belangrijke papieren. Geef eventueel een kopie aan een vertrouwd persoon.</p>
+      <div class="actions-grid">
+        <button type="button" class="action-btn primary" onclick="window.print()">⎙ Print / PDF</button>
+        <button type="button" class="action-btn" onclick="emailWensen()">✉ E‑mail naar mezelf</button>
+        <button type="button" class="action-btn" onclick="exportJSON()">⤓ Bewaar als bestand</button>
+      </div>
+    </div>
+  </div>
+</form>
+
+<div class="toast" id="toast">Opgeslagen ✓</div>
+
+
+<footer class="footer" id="contact">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="index.html" class="logo logo--light" aria-label="Twenthe Uitvaartverzekering — naar home">
+  <span class="logo-mark"><svg viewBox="0 0 28 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<path d="M14 1 C 5 7, 1 17, 3 26 C 4.5 32, 14 35, 14 35 L 14 18 Z" fill="currentColor"/>
+<path d="M14 1 C 23 7, 27 17, 25 26 C 23.5 32, 14 35, 14 35 L 14 18 Z" fill="currentColor" opacity="0.55"/>
+<path d="M14 4 L 14 35" stroke="white" stroke-width="0.6" opacity="0.35"/>
+</svg></span>
+  <span class="logo-text">
+    <span class="logo-name">Twenthe</span>
+    <span class="logo-sub">Uitvaartverzekering</span>
+  </span>
+</a>
+      <p>Uitvaartverzekering Twenthe N.V. — sinds 1942 in Enschede. Vergunninghouder van De Nederlandsche Bank, ingeschreven bij AFM en lid van het Verbond van Verzekeraars.</p>
+      <span class="verbond"><span class="vmark"></span> Verbond van Verzekeraars</span>
+    </div>
+    <div class="footer-col">
+      <h5>Contact</h5>
+      <div class="footer-contact"><span><strong>Postadres</strong>Postbus 191, 7500 AD Enschede</span></div>
+      <div class="footer-contact"><span><strong>Bezoekadres</strong>Getfertsingel 91, 7513 GB Enschede</span></div>
+      <div class="footer-contact"><span><strong>Telefoon</strong><a href="tel:0534312732">053 – 4312 732</a></span></div>
+      <div class="footer-contact"><span><strong>E‑mail</strong><a href="mailto:info@twenthe.nl">info@twenthe.nl</a></span></div>
+    </div>
+    <div class="footer-col">
+      <h5>Doe direct</h5>
+      <ul>
+        <li><a href="premie.html">Premie berekenen →</a></li>
+        <li><a href="uitvaartwaardemeter.html">Uitvaartkosten →</a></li>
+        <li><a href="wensen.html">Mijn wensen →</a></li>
+        <li><a href="login.html">Mijn Twenthe →</a></li>
+        <li><a href="#">Wijziging doorgeven →</a></li>
+        <li><a href="#sterfgeval">Sterfgeval melden →</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Informatie</h5>
+      <ul>
+        <li><a href="#">Algemene voorwaarden</a></li>
+        <li><a href="#">Bijzondere voorwaarden</a></li>
+        <li><a href="#">Privacy verklaring</a></li>
+        <li><a href="#">Verzekeringskaart</a></li>
+        <li><a href="#">Vergelijkingskaart</a></li>
+        <li><a href="#">Veelgestelde vragen</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div>2026 © Uitvaartverzekering Twenthe N.V. — KvK 06014206 · AFM 12000699 · KiFiD 200.000315</div>
+    <div class="footer-bottom-links"><a href="#">Cookies</a> <a href="#">Sitemap</a></div>
+  </div>
+</footer>
+
+<script>
+
+const navToggle = document.getElementById("navToggle");
+const mainNav = document.getElementById("mainNav");
+let navOpen = false;
+navToggle?.addEventListener("click", () => {
+  navOpen = !navOpen;
+  if(navOpen){
+    mainNav.style.cssText = "display:flex;flex-direction:column;position:fixed;top:0;right:0;width:min(320px,85vw);height:100vh;background:var(--ink);padding:80px 32px 32px;z-index:200;gap:0;box-shadow:-4px 0 24px rgba(0,0,0,.2);overflow-y:auto;";
+    mainNav.querySelectorAll("a").forEach(a=>{a.style.color="#fff";a.style.padding="16px 0";a.style.borderBottom="1px solid rgba(255,255,255,.15)";a.style.fontSize="16px";});
+    document.body.style.overflow="hidden";
+  } else {
+    mainNav.style.cssText = "";
+    mainNav.querySelectorAll("a").forEach(a=>{a.removeAttribute("style");});
+    document.body.style.overflow="";
+  }
+});
+mainNav?.querySelectorAll("a").forEach(a=>a.addEventListener("click", () => {if(navOpen){navToggle.click();}}));
+
+
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if(e.isIntersecting){e.target.classList.add("in");obs.unobserve(e.target);}
+  });
+}, {threshold:0.1});
+document.querySelectorAll(".reveal").forEach(el => obs.observe(el));
+
+
+const STORAGE_KEY = "twenthe_uitvaartwensen_v1";
+const form = document.getElementById("wensenForm");
+const saveDot = document.getElementById("saveDot");
+const saveText = document.getElementById("saveText");
+const toast = document.getElementById("toast");
+let saveTimeout, toastTimeout;
+
+function getFormData(){
+  const data = {};
+  form.querySelectorAll("input, select, textarea").forEach(el => {
+    if (!el.name) return;
+    if (el.type === "checkbox") data[el.name] = el.checked;
+    else if (el.type === "radio") { if (el.checked) data[el.name] = el.value; }
+    else data[el.name] = el.value;
+  });
+  data._contacts = [];
+  document.querySelectorAll(".contact-row").forEach(row => {
+    data._contacts.push({
+      naam: row.querySelector(".c-naam")?.value || "",
+      relatie: row.querySelector(".c-relatie")?.value || "",
+      telefoon: row.querySelector(".c-tel")?.value || ""
+    });
+  });
+  data._lastSaved = new Date().toISOString();
+  return data;
+}
+
+function loadFormData(){
+  const raw = localStorage.getItem(STORAGE_KEY);
+  if (!raw) return;
+  try {
+    const data = JSON.parse(raw);
+    Object.keys(data).forEach(key => {
+      if (key.startsWith("_")) return;
+      const fields = form.querySelectorAll(`[name="${key}"]`);
+      fields.forEach(el => {
+        if (el.type === "checkbox") el.checked = !!data[key];
+        else if (el.type === "radio") { if (el.value === data[key]) el.checked = true; }
+        else el.value = data[key] || "";
+      });
+    });
+    if (Array.isArray(data._contacts) && data._contacts.length) {
+      document.getElementById("contactsContainer").innerHTML = "";
+      data._contacts.forEach(c => addContact(c));
+    }
+    if (data._lastSaved) {
+      const d = new Date(data._lastSaved);
+      saveText.textContent = "Laatst opgeslagen: " + d.toLocaleString("nl-NL", {day:"numeric", month:"short", hour:"2-digit", minute:"2-digit"});
+    }
+  } catch(e) { console.warn("Load failed:", e); }
+}
+
+function saveFormData(){
+  saveDot.classList.add("saving");
+  saveText.textContent = "Bezig met opslaan...";
+  clearTimeout(saveTimeout);
+  saveTimeout = setTimeout(() => {
+    try {
+      const data = getFormData();
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+      saveDot.classList.remove("saving");
+      saveText.textContent = "Opgeslagen " + new Date().toLocaleTimeString("nl-NL", {hour:"2-digit", minute:"2-digit"});
+    } catch(e) { saveText.textContent = "Opslaan mislukt"; console.error(e); }
+  }, 400);
+}
+
+function showToast(msg){
+  toast.textContent = msg;
+  toast.classList.add("show");
+  clearTimeout(toastTimeout);
+  toastTimeout = setTimeout(() => toast.classList.remove("show"), 2400);
+}
+
+function addContact(prefill){
+  const container = document.getElementById("contactsContainer");
+  if (container.querySelectorAll(".contact-row").length >= 3) { showToast("Maximaal 3 contactpersonen"); return; }
+  const row = document.createElement("div");
+  row.className = "contact-row";
+  row.innerHTML = `
+    <div class="field-block"><label>Naam</label><input type="text" class="c-naam" placeholder="Voor- en achternaam" value="${prefill?.naam || ""}"></div>
+    <div class="field-block"><label>Relatie</label><input type="text" class="c-relatie" placeholder="Bijv. zoon, broer" value="${prefill?.relatie || ""}"></div>
+    <div class="field-block"><label>Telefoon</label><input type="tel" class="c-tel" placeholder="06 - ..." value="${prefill?.telefoon || ""}"></div>
+    <button class="remove-contact" type="button" onclick="this.parentElement.remove();saveFormData();">✕</button>
+  `;
+  container.appendChild(row);
+  row.querySelectorAll("input").forEach(i => i.addEventListener("input", saveFormData));
+}
+
+function emailWensen(){
+  const data = getFormData();
+  const naam = data.naam || "Mijn naam";
+  const lines = [`Mijn uitvaartwensen — ${naam}`, "", `Ingevuld via twenthe.nl/wensen.html`, `Datum: ${new Date().toLocaleDateString("nl-NL")}`, ""];
+  const sections = {
+    "Persoonlijke gegevens": ["naam","geboortedatum","adres","woonplaats","polisnr","bsn"],
+    "Soort uitvaart": ["soort","locatieVoorkeur","soortToelichting"],
+    "Ceremonie": ["karakter","genodigden","ceremonieLocatie","voorganger","muziek","teksten","sprekers","ceremonieExtra"],
+    "Verzorging": ["opbaring","kleding","sieraden","meegeven","verzorgingExtra"],
+    "Kist of urn": ["kist","kistMateriaal","urnVoorkeur","kistDecoratie"],
+    "Bloemen": ["bloemen","bloemenType","goedeDoel"],
+    "Bekendmaking": ["rouwbrieven","socialMedia","rouwbriefTekst"],
+    "Vervoer": ["vervoer","volgautos","vervoerExtra"],
+    "Koffietafel": ["koffietafel","koffieLocatie","koffieAantal","koffieCatering"],
+    "Bestemming": ["grafType","asBestemming","verstrooiPlek","grafsteen","grafsteenTekst"],
+    "Persoonlijke boodschap": ["boodschap"],
+    "Praktisch": ["notaris","huisarts","documenten","wachtwoorden","donor","wetenschap","huisdier","praktischExtra","datumIngevuld"]
+  };
+  Object.entries(sections).forEach(([title, fields]) => {
+    const filled = fields.filter(f => data[f] && String(data[f]).trim()).map(f => `  ${f}: ${data[f]}`);
+    if (filled.length) { lines.push(`— ${title} —`); lines.push(...filled); lines.push(""); }
+  });
+  if (data._contacts?.length) {
+    lines.push("— Contactpersonen —");
+    data._contacts.forEach((c, i) => { if (c.naam) lines.push(`  ${i+1}. ${c.naam} (${c.relatie}) — ${c.telefoon}`); });
+  }
+  const subject = encodeURIComponent(`Mijn uitvaartwensen — ${naam}`);
+  const body = encodeURIComponent(lines.join("\n"));
+  window.location.href = `mailto:?subject=${subject}&body=${body}`;
+}
+
+function exportJSON(){
+  const data = getFormData();
+  const blob = new Blob([JSON.stringify(data, null, 2)], {type:"application/json"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  const datum = new Date().toISOString().split("T")[0];
+  const naam = (data.naam || "wensen").replace(/[^a-z0-9]/gi,"_").toLowerCase();
+  a.href = url; a.download = `uitvaartwensen_${naam}_${datum}.json`; a.click();
+  URL.revokeObjectURL(url);
+  showToast("Bestand gedownload ✓");
+}
+
+function resetForm(){
+  if (!confirm("Weet u zeker dat u alle ingevulde wensen wilt verwijderen?")) return;
+  localStorage.removeItem(STORAGE_KEY);
+  form.reset();
+  document.getElementById("contactsContainer").innerHTML = "";
+  saveText.textContent = "Formulier gewist";
+  showToast("Formulier gewist");
+  setTimeout(() => saveText.textContent = "Begin opnieuw...", 1600);
+}
+
+loadFormData();
+form.querySelectorAll("input, select, textarea").forEach(el => {
+  el.addEventListener("input", saveFormData);
+  el.addEventListener("change", saveFormData);
+});
+window.addEventListener("beforeprint", () => { document.querySelector(".form-wrap").setAttribute("data-print-date", new Date().toLocaleDateString("nl-NL")); });
+const datumField = document.getElementById("datumIngevuld");
+if (datumField && !datumField.value) datumField.value = new Date().toISOString().split("T")[0];
+
+</script>
+
+</body>
+</html>
