@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Uitvaartwaardemeter — Wat kost uw uitvaart?</title>
+<meta name="description" content="Bereken indicatief de kosten van een uitvaart. Stel uw uitvaart samen aan de hand van twaalf onderdelen.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyOCAzNiI+PHBhdGggZD0iTTE0IDEgQyA1IDcsIDEgMTcsIDMgMjYgQyA0LjUgMzIsIDE0IDM1LCAxNCAzNSBMIDE0IDE4IFoiIGZpbGw9IiM0Y2FmMWEiLz48cGF0aCBkPSJNMTQgMSBDIDIzIDcsIDI3IDE3LCAyNSAyNiBDIDIzLjUgMzIsIDE0IDM1LCAxNCAzNSBMIDE0IDE4IFoiIGZpbGw9IiM0Y2FmMWEiIG9wYWNpdHk9IjAuNTUiLz48L3N2Zz4=">
+<link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyOCAzNiI+PHBhdGggZD0iTTE0IDEgQyA1IDcsIDEgMTcsIDMgMjYgQyA0LjUgMzIsIDE0IDM1LCAxNCAzNSBMIDE0IDE4IFoiIGZpbGw9IiM0Y2FmMWEiLz48cGF0aCBkPSJNMTQgMSBDIDIzIDcsIDI3IDE3LCAyNSAyNiBDIDIzLjUgMzIsIDE0IDM1LCAxNCAzNSBMIDE0IDE4IFoiIGZpbGw9IiM0Y2FmMWEiIG9wYWNpdHk9IjAuNTUiLz48L3N2Zz4=">
+<link rel="canonical" href="https://www.twenthe.nl/uitvaartwaardemeter.html">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="nl_NL">
+<meta property="og:url" content="https://www.twenthe.nl/uitvaartwaardemeter.html">
+<meta property="og:site_name" content="Twenthe Uitvaartverzekering">
+<meta property="og:title" content="Uitvaartwaardemeter — Wat kost uw uitvaart?">
+<meta property="og:description" content="Bereken indicatief de kosten van een uitvaart. Stel uw uitvaart samen aan de hand van twaalf onderdelen.">
+<meta property="og:image" content="https://www.twenthe.nl/assets/banner.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="alternate" type="application/json" href="/tarieven.json" title="Premie tarieven 2026 (JSON)">
+<link rel="alternate" type="text/markdown" href="/tarieven.md" title="Premie tarieven 2026 (Markdown)">
+<link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-friendly site summary">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Twenthe Uitvaartwaardemeter","url":"https://www.twenthe.nl/uitvaartwaardemeter.html","applicationCategory":"FinanceApplication","operatingSystem":"Web","description":"Calculator om de indicatieve kosten van een uitvaart te berekenen op basis van twaalf onderdelen.","inLanguage":"nl-NL","isAccessibleForFree":true}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+  --green:#4caf1a;
+  --green-dark:#388e0e;
+  --green-darker:#1f4d0a;
+  --green-soft:#e8f5e8;
+  --green-bg:#f4faf2;
+  --pink:#e63960;
+  --pink-dark:#c92850;
+  --orange:#e89623;
+  --indigo:#5b5fc7;
+  --cream:#faf7f0;
+  --cream-2:#f4ede0;
+  --paper:#fdfbf6;
+  --ink:#1a2418;
+  --ink-soft:#5a635a;
+  --ink-light:#9aa098;
+  --line:#e8e4d8;
+  --line-soft:#f0ece0;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:"Open Sans",sans-serif;
+  font-weight:400;font-size:15px;line-height:1.65;
+  color:var(--ink);background:var(--cream);
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;transition:all .25s;}
+button{font-family:inherit;cursor:pointer;border:none;background:none;}
+
+/* ── Logo component ── */
+.logo{
+  display:inline-flex;align-items:center;gap:12px;
+  color:var(--ink);text-decoration:none;
+  transition:opacity .2s;
+}
+.logo:hover{opacity:.85;}
+.logo-mark{
+  width:30px;height:auto;flex-shrink:0;
+  color:var(--green);
+  display:flex;align-items:center;
+}
+.logo-mark svg{width:100%;height:auto;display:block;}
+.logo-text{display:flex;flex-direction:column;line-height:1;}
+.logo-name{
+  font-family:"Cormorant Garamond",serif;
+  font-style:italic;font-weight:500;
+  font-size:26px;letter-spacing:-.01em;
+  color:inherit;
+}
+.logo-sub{
+  font-family:"Open Sans",sans-serif;
+  font-size:8.5px;font-weight:700;letter-spacing:.32em;
+  text-transform:uppercase;
+  color:var(--ink-soft);
+  margin-top:3px;
+}
+.logo--light{color:#fff;}
+.logo--light .logo-mark{color:#9bc878;}
+.logo--light .logo-sub{color:#9aa898;}
+
+/* ── Top utility bar ── */
+.utility{
+  background:var(--ink);color:#c5cdc1;
+  font-size:12px;padding:8px 0;letter-spacing:.02em;
+}
+.utility-inner{
+  max-width:1400px;margin:0 auto;padding:0 40px;
+  display:flex;justify-content:space-between;align-items:center;
+}
+.utility-left{display:flex;gap:24px;align-items:center;}
+.utility a{color:#c5cdc1;}
+.utility a:hover{color:#fff;}
+.urgent{
+  display:inline-flex;align-items:center;gap:8px;
+  color:#fff;font-weight:600;
+}
+.urgent-dot{
+  width:7px;height:7px;background:var(--pink);
+  border-radius:50%;animation:pulseIt 1.6s infinite;
+}
+@keyframes pulseIt{0%,100%{opacity:1;transform:scale(1);}50%{opacity:.5;transform:scale(1.3);}}
+
+/* ── Header ── */
+.header{
+  background:rgba(250,247,240,.92);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--line-soft);
+  position:sticky;top:0;z-index:100;
+}
+.header-inner{
+  max-width:1400px;margin:0 auto;padding:18px 40px;
+  display:flex;align-items:center;justify-content:space-between;gap:40px;
+}
+.nav{display:flex;gap:32px;align-items:center;flex:1;justify-content:center;}
+.nav a{
+  font-size:13.5px;font-weight:500;color:var(--ink);
+  position:relative;padding:8px 0;
+  letter-spacing:.01em;
+}
+.nav a::after{
+  content:"";position:absolute;left:0;bottom:0;
+  width:0;height:1.5px;background:var(--green);transition:width .3s ease;
+}
+.nav a:hover{color:var(--green-dark);}
+.nav a:hover::after,.nav a.active::after{width:100%;}
+.nav a.active{color:var(--green-dark);font-weight:600;}
+.header-actions{display:flex;align-items:center;gap:12px;}
+.nav-cta{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--ink);color:var(--cream);
+  padding:11px 22px;border-radius:100px;
+  font-size:13px;font-weight:600;letter-spacing:.02em;
+  transition:all .2s;
+}
+.nav-cta:hover{background:var(--green-darker);color:#fff;transform:translateY(-1px);}
+.nav-toggle{display:none;color:var(--ink);font-size:24px;background:none;border:none;cursor:pointer;}
+
+/* ── Buttons ── */
+.btn{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:14px 28px;font-size:14px;font-weight:600;
+  letter-spacing:.02em;
+  border-radius:100px;transition:all .25s;cursor:pointer;
+  font-family:inherit;
+}
+.btn-primary{
+  background:var(--green);color:#fff;
+  box-shadow:0 8px 24px -8px rgba(76,175,26,.4);
+}
+.btn-primary:hover{
+  background:var(--green-dark);transform:translateY(-2px);
+  box-shadow:0 12px 28px -8px rgba(76,175,26,.5);
+  color:#fff;
+}
+.btn-text{
+  color:var(--ink);font-weight:600;font-size:14px;
+  padding:14px 8px;
+  border-bottom:1.5px solid transparent;border-radius:0;
+}
+.btn-text:hover{border-bottom-color:var(--green);color:var(--green-dark);}
+.btn-ghost{
+  background:transparent;color:var(--ink);
+  border:1.5px solid var(--line);
+}
+.btn-ghost:hover{border-color:var(--green);color:var(--green-dark);}
+.arrow{display:inline-block;transition:transform .25s;}
+.btn:hover .arrow{transform:translateX(4px);}
+
+/* ── Page header (subpages) ── */
+.page-head{
+  padding:64px 40px 40px;
+  background:var(--cream);
+  border-bottom:1px solid var(--line-soft);
+}
+.page-head-inner{
+  max-width:1100px;margin:0 auto;text-align:center;
+}
+.crumbs{
+  font-size:11px;text-transform:uppercase;letter-spacing:.32em;
+  color:var(--ink-light);margin-bottom:24px;font-weight:600;
+}
+.crumbs a{color:var(--ink-light);}
+.crumbs a:hover{color:var(--green-dark);}
+.page-head h1{
+  font-family:"Cormorant Garamond",serif;font-weight:500;
+  font-size:clamp(40px,5vw,72px);line-height:1;
+  letter-spacing:-.02em;color:var(--ink);
+  margin-bottom:18px;
+}
+.page-head h1 em{font-style:italic;color:var(--green-dark);}
+.page-head .lede{
+  font-size:17px;color:var(--ink-soft);max-width:560px;
+  margin:0 auto;line-height:1.6;font-weight:300;
+}
+
+/* ── Section base ── */
+section{padding:80px 40px;}
+.container{max-width:1400px;margin:0 auto;}
+.section-kicker{
+  display:inline-flex;align-items:center;gap:12px;
+  font-size:11px;letter-spacing:.32em;text-transform:uppercase;
+  color:var(--green-dark);font-weight:700;
+  margin-bottom:18px;
+}
+.section-kicker::before{content:"";width:32px;height:1.5px;background:var(--green);}
+h2{
+  font-family:"Cormorant Garamond",serif;font-weight:500;
+  font-size:clamp(36px,4vw,56px);line-height:1.05;
+  letter-spacing:-.015em;color:var(--ink);
+}
+h2 em{font-style:italic;color:var(--green-dark);}
+
+/* ── Footer (shared) ── */
+.footer{background:var(--ink);color:#a8b0a4;padding:80px 40px 30px;}
+.footer-grid{
+  max-width:1400px;margin:0 auto 56px;
+  display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:64px;
+}
+.footer-brand p{font-size:13.5px;line-height:1.6;color:#7a8478;max-width:280px;margin:24px 0 24px;}
+.footer-brand .verbond{
+  display:inline-flex;align-items:center;gap:10px;
+  font-size:10.5px;color:#7a8478;font-weight:600;
+  text-transform:uppercase;letter-spacing:.18em;
+}
+.footer-brand .vmark{
+  width:20px;height:14px;background:#9bc878;
+  clip-path:polygon(0 0,50% 100%,100% 0);
+}
+.footer-col h5{
+  font-size:11px;text-transform:uppercase;letter-spacing:.18em;
+  color:#fff;margin-bottom:20px;font-weight:700;
+}
+.footer-col ul{list-style:none;display:flex;flex-direction:column;gap:11px;}
+.footer-col a{font-size:13.5px;color:#a8b0a4;}
+.footer-col a:hover{color:#fff;}
+.footer-contact{display:flex;flex-direction:column;gap:8px;font-size:13.5px;color:#a8b0a4;line-height:1.55;margin-bottom:14px;}
+.footer-contact strong{display:block;color:#fff;font-size:11px;text-transform:uppercase;letter-spacing:.18em;font-weight:700;margin-bottom:2px;}
+.footer-bottom{
+  max-width:1400px;margin:0 auto;padding-top:24px;
+  border-top:1px solid #2a3530;
+  display:flex;justify-content:space-between;align-items:center;
+  font-size:12px;color:#7a8478;flex-wrap:wrap;gap:16px;
+}
+.footer-bottom-links{display:flex;gap:24px;}
+
+/* ── Mobile ── */
+@media (max-width:1100px){
+  .nav{display:none;}
+  .nav-toggle{display:block;}
+  .nav-cta{display:none;}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:48px;}
+}
+@media (max-width:640px){
+  section{padding:60px 24px;}
+  .header-inner,.utility-inner{padding:0 20px;}
+  .page-head{padding:48px 24px 32px;}
+  .footer{padding:60px 24px 30px;}
+  .footer-grid{grid-template-columns:1fr;gap:32px;}
+  .footer-bottom{flex-direction:column;text-align:center;}
+  .utility-left{display:none;}
+  .logo-name{font-size:22px;}
+  .logo-sub{font-size:8px;letter-spacing:.28em;}
+  .logo-mark{width:26px;}
+}
+
+/* Reveal */
+.reveal{opacity:0;transform:translateY(24px);transition:all .8s ease;}
+.reveal.in{opacity:1;transform:translateY(0);}
+
+
+.calc-wrap{max-width:1200px;margin:0 auto;padding:48px 40px 80px;display:grid;grid-template-columns:1fr 380px;gap:48px;align-items:start;}
+.calc-form{background:#fff;border:1px solid var(--line);border-radius:6px;padding:40px;}
+.calc-side{position:sticky;top:120px;}
+.field-block{display:flex;flex-direction:column;gap:8px;margin-bottom:24px;}
+.field-block label{font-size:11px;color:var(--ink);font-weight:700;text-transform:uppercase;letter-spacing:.18em;}
+.field-block .hint{font-size:12px;color:var(--ink-light);font-style:italic;}
+.field-row{display:grid;grid-template-columns:1fr 180px;gap:14px;align-items:end;}
+input[type=text],input[type=number],select{
+  width:100%;padding:12px 16px;font-size:14px;color:var(--ink);font-family:inherit;
+  border:1.5px solid var(--line);border-radius:3px;background:#fff;outline:none;transition:all .2s;
+}
+select{appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path d='M1 1l4 4 4-4' stroke='%234caf1a' stroke-width='1.5' fill='none' stroke-linecap='round'/></svg>");background-repeat:no-repeat;background-position:right 16px center;padding-right:36px;cursor:pointer;}
+input:focus,select:focus{border-color:var(--green);box-shadow:0 0 0 4px rgba(76,175,26,.12);}
+.section-title{font-family:"Cormorant Garamond",serif;font-weight:500;font-size:24px;line-height:1.2;color:var(--ink);margin-bottom:8px;}
+.section-title em{font-style:italic;color:var(--green-dark);}
+.section-help{font-size:13.5px;color:var(--ink-soft);margin-bottom:20px;line-height:1.5;}
+.divider{height:1px;background:var(--line);margin:32px 0;}
+.numbered-block{display:grid;grid-template-columns:32px 1fr;gap:16px;align-items:start;}
+.num{font-family:"Cormorant Garamond",serif;font-style:italic;font-weight:500;font-size:24px;color:var(--green);line-height:1.4;}
+.numbered-block .field-block{margin-bottom:0;}
+.result-card{background:linear-gradient(135deg,var(--ink) 0%,#0f1610 100%);color:#fff;border-radius:8px;padding:36px;position:relative;overflow:hidden;box-shadow:0 24px 60px -20px rgba(0,0,0,.25);}
+.result-card::before{content:"";position:absolute;top:-80px;right:-80px;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(76,175,26,.18),transparent 70%);}
+.result-card-inner{position:relative;z-index:1;}
+.result-label{font-size:11px;text-transform:uppercase;letter-spacing:.32em;color:#9aa898;font-weight:600;margin-bottom:14px;}
+.result-amount{font-family:"Cormorant Garamond",serif;font-size:54px;font-weight:500;color:#fff;line-height:1;letter-spacing:-.02em;margin-bottom:6px;}
+.result-amount em{font-style:italic;color:#9bc878;font-size:32px;font-weight:400;}
+.result-period{color:#c8d4be;font-size:13px;margin-bottom:20px;}
+.result-breakdown{padding-top:20px;border-top:1px solid rgba(255,255,255,.15);display:flex;flex-direction:column;gap:8px;max-height:380px;overflow-y:auto;}
+.result-line{display:flex;justify-content:space-between;font-size:12.5px;color:#c8d4be;gap:12px;}
+.result-line strong{color:#fff;font-weight:600;flex-shrink:0;}
+.result-actions{margin-top:24px;display:flex;flex-direction:column;gap:10px;}
+@media (max-width:1100px){.calc-wrap{grid-template-columns:1fr;}.calc-side{position:static;}}
+@media (max-width:760px){.calc-wrap{padding:32px 20px 60px;}.calc-form{padding:28px 20px;}.field-row{grid-template-columns:1fr;}.result-amount{font-size:42px;}}
+
+</style>
+</head>
+<body>
+
+<div class="utility">
+  <div class="utility-inner">
+    <div class="utility-left">
+      <a href="tel:0534312732">053 – 4312 732</a>
+      <a href="mailto:info@twenthe.nl">info@twenthe.nl</a>
+    </div>
+    <div>
+      <a href="#sterfgeval" class="urgent"><span class="urgent-dot"></span> Sterfgeval melden — 053 480 3543 (24/7)</a>
+    </div>
+  </div>
+</div>
+<header class="header">
+  <div class="header-inner">
+    <a href="index.html" class="logo" aria-label="Twenthe Uitvaartverzekering — naar home">
+  <span class="logo-mark"><svg viewBox="0 0 28 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<path d="M14 1 C 5 7, 1 17, 3 26 C 4.5 32, 14 35, 14 35 L 14 18 Z" fill="currentColor"/>
+<path d="M14 1 C 23 7, 27 17, 25 26 C 23.5 32, 14 35, 14 35 L 14 18 Z" fill="currentColor" opacity="0.55"/>
+<path d="M14 4 L 14 35" stroke="white" stroke-width="0.6" opacity="0.35"/>
+</svg></span>
+  <span class="logo-text">
+    <span class="logo-name">Twenthe</span>
+    <span class="logo-sub">Uitvaartverzekering</span>
+  </span>
+</a>
+    <nav class="nav" id="mainNav">
+      <a href="index.html#over">Over Twenthe</a>
+      <a href="index.html#verzekeringen">Verzekeringen</a>
+      <a href="premie.html">Premie berekenen</a>
+      <a href="uitvaartwaardemeter.html" class="active">Uitvaartkosten</a>
+      <a href="wensen.html">Mijn wensen</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a href="login.html" class="nav-cta">Mijn Twenthe →</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+
+<section class="page-head">
+  <div class="page-head-inner">
+    <div class="crumbs"><a href="index.html">Home</a> &nbsp;/&nbsp; Uitvaartwaardemeter</div>
+    <h1>Wat kost een <em>uitvaart?</em></h1>
+    <p class="lede">Stel uw uitvaart samen aan de hand van twaalf onderdelen. We tonen direct het indicatieve totaalbedrag — handig om te bepalen voor welk bedrag u zich het best verzekeren kunt.</p>
+  </div>
+</section>
+
+<div class="calc-wrap">
+  <div class="calc-form">
+    <h3 class="section-title">Stel uw <em>uitvaart</em> samen</h3>
+    <p class="section-help">Kies bij elk onderdeel de uitvoering die het beste past bij uw wensen. Alle bedragen zijn indicatief en gebaseerd op gemiddelde kosten in 2026.</p>
+    <div style="display:flex;flex-direction:column;gap:0;">
+      <div class="numbered-block">
+  <span class="num">01</span>
+  <div class="field-block">
+    <label for="basiskosten">Basiskosten</label>
+    <span class="hint">Regelen, personeel, opbaring (vast bedrag)</span>
+    <select id="basiskosten" data-cost="cost" onchange="recalc()">
+      <option value="2500">Standaard — € 2.500</option>
+    </select>
+  </div>
+</div>
+<div class="divider"></div>
+<div class="numbered-block">
+  <span class="num">02</span>
+  <div class="field-block">
+    <label for="begrafenis_crematie">Begrafenis of crematie</label>
+    <span class="hint">Inclusief vervoer en gebruik aula</span>
+    <select id="begrafenis_crematie" data-cost="cost" onchange="recalc()">
+      <option value="1200">Crematie eenvoudig — € 1.200</option>
+          <option value="1800">Crematie standaard — € 1.800</option>
+          <option value="2200">Begrafenis standaard — € 2.200</option>
+          <option value="2500">Begrafenis uitgebreid — € 2.500</option>
+    </select>
+  </div>
+</div>
+<div class="divider"></div>
+<div class="numbered-block">
+  <span class="num">03</span>
+  <div class="field-block">
+    <label for="kist">Kist</label>
+    <span class="hint">Type en uitvoering</span>
+    <select id="kist" data-cost="cost" onchange="recalc()">
+      <option value="450">Eenvoudig — € 450</option>
+          <option value="700">Standaard — € 700</option>
+          <option value="1000">Luxe — € 1.000</option>
+    </select>
+  </div>
+</div>
+<div class="divider"></div>
+<div class="numbered-block">
+  <span class="num">04</span>
+  <div class="field-block">
+    <label for="rouwdienst">Rouwdienst</label>
+    <span class="hint">Locatie en duur</span>
+    <select id="rouwdienst" data-cost="cost" onchange="recalc()">
+      <option value="0">Geen rouwdienst — € 0</option>
+          <option value="200">In rouwcentrum (kort) — € 200</option>
+          <option value="400">In kerk of aula (uitgebreid) — € 400</option>
+    </select>
+  </div>
+</div>
+<div class="divider"></div>
+<div class="numbered-block">
+  <span class="num">05</span>
+  <div class="field-block">
+    <label for="volgautos">Volgauto's</label>
+    <span class="hint">Aantal en type</span>
+    <select id="volgautos" data-cost="cost" onchange="recalc()">
+      <option value="0">Geen — € 0</option>
+          <option value="200">1 volgauto — € 200</option>
+          <option value="400">2 volgauto's — € 400</option>
+          <option value="600">3 volgauto's — € 600</option>
+    </select>
+  </div>
+</div>
+<div class="divider"></div>
+<div class="numbered-block">
+  <span class="num">06</span>
+  <div class="field-block">
+    <label for="koffietafel">Koffietafel</label>
+    <span class="hint">Aantal personen</span>
+    <select id="koffietafel" data-cost="cost" onchange="recalc()">
+      <option value="0">Geen — € 0</option>
+          <option value="250">Klein (50 pers.) — € 250</option>
+          <option value="500">Middel (100 pers.) — € 500</option>
+          <option value="750">Groot (150 pers.) — € 750</option>
+    </select>
+  </div>
+</div>
+<div class="divider"></div>
+<div class="numbered-block">
+  <span class="num">07</span>
+  <div class="field-block">
+    <label for="rouwbrieven">Rouwbrieven</label>
+    <span class="hint">Aantal te versturen</span>
+    <select id="rouwbrieven" data-cost="cost" onchange="recalc()">
+      <option value="0">Geen — € 0</option>
+          <option value="150">50 stuks — € 150</option>
+          <option value="250">100 stuks — € 250</option>
+          <option value="350">150 stuks — € 350</option>
+    </select>
+  </div>
+</div>
+<div class="divider"></div>
+<div class="numbered-block">
+  <span class="num">08</span>
+  <div class="field-block">
+    <label for="dankbetuigingen">Dankbetuigingen of bidprentjes</label>
+    
+    <select id="dankbetuigingen" data-cost="cost" onchange="recalc()">
+      <option value="0">Geen — € 0</option>
+          <option value="100">50 stuks — € 100</option>
+          <option value="150">100 stuks — € 150</option>
+          <option value="225">150 stuks — € 225</option>
+    </select>
+  </div>
+</div>
+<div class="divider"></div>
+<div class="numbered-block">
+  <span class="num">09</span>
+  <div class="field-block">
+    <label for="advertenties">Advertenties</label>
+    <span class="hint">Regionaal en/of landelijk</span>
+    <select id="advertenties" data-cost="cost" onchange="recalc()">
+      <option value="0">Geen — € 0</option>
+          <option value="400">Regionaal dagblad — € 400</option>
+          <option value="1250">Landelijk dagblad — € 1.250</option>
+          <option value="1650">Regionaal + landelijk — € 1.650</option>
+    </select>
+  </div>
+</div>
+<div class="divider"></div>
+<div class="numbered-block">
+  <span class="num">10</span>
+  <div class="field-block">
+    <label for="bloemen">Bloemen</label>
+    <span class="hint">Type en hoeveelheid</span>
+    <select id="bloemen" data-cost="cost" onchange="recalc()">
+      <option value="0">Geen — € 0</option>
+          <option value="100">Eenvoudig — € 100</option>
+          <option value="200">Standaard — € 200</option>
+          <option value="300">Luxe — € 300</option>
+    </select>
+  </div>
+</div>
+<div class="divider"></div>
+<div class="numbered-block">
+  <span class="num">11</span>
+  <div class="field-block">
+    <label for="grafsteen">Grafsteen / monument</label>
+    <span class="hint">Bij begrafenis</span>
+    <select id="grafsteen" data-cost="cost" onchange="recalc()">
+      <option value="0">Geen — € 0</option>
+          <option value="1500">Eenvoudig — € 1.500</option>
+          <option value="2000">Standaard — € 2.000</option>
+          <option value="2500">Luxe — € 2.500</option>
+    </select>
+  </div>
+</div>
+<div class="divider"></div>
+<div class="numbered-block">
+  <span class="num">12</span>
+  <div class="field-block">
+    <label for="onvoorzien">Onvoorziene kosten</label>
+    <span class="hint">Buffer voor onverwachte uitgaven</span>
+    <select id="onvoorzien" data-cost="cost" onchange="recalc()">
+      <option value="0">Geen — € 0</option>
+          <option value="500">€ 500</option>
+          <option value="1000">€ 1.000</option>
+          <option value="1750">€ 1.750</option>
+    </select>
+  </div>
+</div>
+    </div>
+  </div>
+
+  <aside class="calc-side">
+    <div class="result-card">
+      <div class="result-card-inner">
+        <div class="result-label">Totale kosten</div>
+        <div class="result-amount"><em>€</em> <span id="totalAmount">8.500</span></div>
+        <div class="result-period">Indicatief totaalbedrag</div>
+        <div class="result-breakdown" id="resultBreakdown"></div>
+        <div class="result-actions">
+          <a href="premie.html" class="btn btn-primary" style="width:100%;justify-content:center;">Bereken premie hiervoor <span class="arrow">→</span></a>
+          <button onclick="window.print()" class="btn-ghost-light" style="width:100%;justify-content:center;background:rgba(255,255,255,.1);border:1.5px solid rgba(255,255,255,.3);color:#fff;cursor:pointer;font-family:inherit;">⎙ Print resultaat</button>
+        </div>
+      </div>
+    </div>
+    <p style="margin-top:18px;font-size:12px;color:var(--ink-light);font-style:italic;line-height:1.5;">Aan deze berekening kunnen geen rechten worden ontleend. Werkelijke kosten kunnen afwijken van de indicaties.</p>
+  </aside>
+</div>
+
+
+<footer class="footer" id="contact">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="index.html" class="logo logo--light" aria-label="Twenthe Uitvaartverzekering — naar home">
+  <span class="logo-mark"><svg viewBox="0 0 28 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<path d="M14 1 C 5 7, 1 17, 3 26 C 4.5 32, 14 35, 14 35 L 14 18 Z" fill="currentColor"/>
+<path d="M14 1 C 23 7, 27 17, 25 26 C 23.5 32, 14 35, 14 35 L 14 18 Z" fill="currentColor" opacity="0.55"/>
+<path d="M14 4 L 14 35" stroke="white" stroke-width="0.6" opacity="0.35"/>
+</svg></span>
+  <span class="logo-text">
+    <span class="logo-name">Twenthe</span>
+    <span class="logo-sub">Uitvaartverzekering</span>
+  </span>
+</a>
+      <p>Uitvaartverzekering Twenthe N.V. — sinds 1942 in Enschede. Vergunninghouder van De Nederlandsche Bank, ingeschreven bij AFM en lid van het Verbond van Verzekeraars.</p>
+      <span class="verbond"><span class="vmark"></span> Verbond van Verzekeraars</span>
+    </div>
+    <div class="footer-col">
+      <h5>Contact</h5>
+      <div class="footer-contact"><span><strong>Postadres</strong>Postbus 191, 7500 AD Enschede</span></div>
+      <div class="footer-contact"><span><strong>Bezoekadres</strong>Getfertsingel 91, 7513 GB Enschede</span></div>
+      <div class="footer-contact"><span><strong>Telefoon</strong><a href="tel:0534312732">053 – 4312 732</a></span></div>
+      <div class="footer-contact"><span><strong>E‑mail</strong><a href="mailto:info@twenthe.nl">info@twenthe.nl</a></span></div>
+    </div>
+    <div class="footer-col">
+      <h5>Doe direct</h5>
+      <ul>
+        <li><a href="premie.html">Premie berekenen →</a></li>
+        <li><a href="uitvaartwaardemeter.html">Uitvaartkosten →</a></li>
+        <li><a href="wensen.html">Mijn wensen →</a></li>
+        <li><a href="login.html">Mijn Twenthe →</a></li>
+        <li><a href="#">Wijziging doorgeven →</a></li>
+        <li><a href="#sterfgeval">Sterfgeval melden →</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Informatie</h5>
+      <ul>
+        <li><a href="#">Algemene voorwaarden</a></li>
+        <li><a href="#">Bijzondere voorwaarden</a></li>
+        <li><a href="#">Privacy verklaring</a></li>
+        <li><a href="#">Verzekeringskaart</a></li>
+        <li><a href="#">Vergelijkingskaart</a></li>
+        <li><a href="#">Veelgestelde vragen</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div>2026 © Uitvaartverzekering Twenthe N.V. — KvK 06014206 · AFM 12000699 · KiFiD 200.000315</div>
+    <div class="footer-bottom-links"><a href="#">Cookies</a> <a href="#">Sitemap</a></div>
+  </div>
+</footer>
+
+<script>
+
+const navToggle = document.getElementById("navToggle");
+const mainNav = document.getElementById("mainNav");
+let navOpen = false;
+navToggle?.addEventListener("click", () => {
+  navOpen = !navOpen;
+  if(navOpen){
+    mainNav.style.cssText = "display:flex;flex-direction:column;position:fixed;top:0;right:0;width:min(320px,85vw);height:100vh;background:var(--ink);padding:80px 32px 32px;z-index:200;gap:0;box-shadow:-4px 0 24px rgba(0,0,0,.2);overflow-y:auto;";
+    mainNav.querySelectorAll("a").forEach(a=>{a.style.color="#fff";a.style.padding="16px 0";a.style.borderBottom="1px solid rgba(255,255,255,.15)";a.style.fontSize="16px";});
+    document.body.style.overflow="hidden";
+  } else {
+    mainNav.style.cssText = "";
+    mainNav.querySelectorAll("a").forEach(a=>{a.removeAttribute("style");});
+    document.body.style.overflow="";
+  }
+});
+mainNav?.querySelectorAll("a").forEach(a=>a.addEventListener("click", () => {if(navOpen){navToggle.click();}}));
+
+
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if(e.isIntersecting){e.target.classList.add("in");obs.unobserve(e.target);}
+  });
+}, {threshold:0.1});
+document.querySelectorAll(".reveal").forEach(el => obs.observe(el));
+
+
+const CAT_LABELS = {"basiskosten": "Basiskosten", "begrafenis_crematie": "Begrafenis of crematie", "kist": "Kist", "rouwdienst": "Rouwdienst", "volgautos": "Volgauto's", "koffietafel": "Koffietafel", "rouwbrieven": "Rouwbrieven", "dankbetuigingen": "Dankbetuigingen of bidprentjes", "advertenties": "Advertenties", "bloemen": "Bloemen", "grafsteen": "Grafsteen / monument", "onvoorzien": "Onvoorziene kosten"};
+const CAT_IDS = ["basiskosten", "begrafenis_crematie", "kist", "rouwdienst", "volgautos", "koffietafel", "rouwbrieven", "dankbetuigingen", "advertenties", "bloemen", "grafsteen", "onvoorzien"];
+function fmtMoney(n){return "€ " + n.toLocaleString("nl-NL");}
+function fmt(n){return n.toLocaleString("nl-NL");}
+function recalc(){
+  let total = 0;
+  let lines = [];
+  CAT_IDS.forEach(id => {
+    const sel = document.getElementById(id);
+    const v = parseInt(sel.value) || 0;
+    if (v > 0) {
+      total += v;
+      lines.push(`<div class="result-line"><span>${CAT_LABELS[id]}</span><strong>${fmtMoney(v)}</strong></div>`);
+    }
+  });
+  document.getElementById("totalAmount").textContent = fmt(total);
+  document.getElementById("resultBreakdown").innerHTML = lines.join("");
+}
+recalc();
+
+</script>
+
+</body>
+</html>

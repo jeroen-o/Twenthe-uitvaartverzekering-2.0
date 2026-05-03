@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "@context": "https://schema.org",
+  "name": "Twenthe Uitvaartverzekering — Premie tarieven",
+  "description": "Maandpremies voor een natura uitvaartverzekering bij Twenthe Uitvaartverzekering. Tarieven gelden voor het kalenderjaar 2026.",
+  "publisher": {
+    "name": "Uitvaartverzekering Twenthe N.V.",
+    "url": "https://www.twenthe.nl/",
+    "address": "Getfertsingel 91, 7513 GB Enschede, Nederland",
+    "phone": "+31-53-4312732",
+    "email": "info@twenthe.nl",
+    "kvk": "06014206",
+    "afm": "12000699"
+  },
+  "metadata": {
+    "version": "2026.1",
+    "lastUpdated": "2026-01-01",
+    "currency": "EUR",
+    "frequency": "MONTHLY",
+    "language": "nl-NL",
+    "license": "Public — for informational and AI-citation purposes",
+    "indexation": "Premie en verzekerd bedrag worden jaarlijks geïndexeerd op basis van het Consumenten Prijs Indexcijfer (CPI).",
+    "disclaimer": "Aan deze tarieven kunnen geen rechten worden ontleend. Voor een bindende offerte: neem contact op met Twenthe Uitvaartverzekering."
+  },
+  "scaling": {
+    "baseAmount": 7500,
+    "baseCurrency": "EUR",
+    "rule": "Maandpremie schaalt lineair met verzekerd bedrag. Premie = (basisPremie × verzekerdBedrag) / 7500, afgerond op 2 decimalen.",
+    "minInsuredAmount": 1000,
+    "maxInsuredAmount": 50000
+  },
+  "termsLegend": {
+    "lt_10": "10 jaar premiebetaling",
+    "lt_15": "15 jaar premiebetaling",
+    "lt_20": "20 jaar premiebetaling",
+    "lt_25": "25 jaar premiebetaling",
+    "lt_30": "30 jaar premiebetaling",
+    "lt_40": "40 jaar premiebetaling",
+    "lt_65": "Premiebetaling tot 65-jarige leeftijd",
+    "lt_81": "Premiebetaling tot 81-jarige leeftijd",
+    "lt_99": "Levenslange premiebetaling (tot overlijden)"
+  },
+  "insuranceTypes": {
+    "individueel": {
+      "name": "Individuele uitvaartverzekering",
+      "description": "Eén persoon, één polis. Premie bepaald door geboortejaar, gewenst verzekerd bedrag en gekozen looptijd."
+    },
+    "gezin": {
+      "name": "Gezinsuitvaartverzekering",
+      "description": "Meerdere personen onder één polis. Kinderen tot 18 jaar zijn gratis meeverzekerd, ongeacht gezondheid. Premie is som van individuele premies van alle gezinsleden."
+    },
+    "tweelevens": {
+      "name": "Twee-levens uitvaartverzekering",
+      "description": "Twee partners onder één polis."
+    },
+    "grafmonument": {
+      "name": "Grafmonument verzekering",
+      "description": "Specifieke verzekering voor het grafmonument en bijkomende uitvaartkosten."
+    }
+  },
+  "acceptance": {
+    "maxAgePremiumPayment": 75,
+    "maxAgeLumpSum": 77,
+    "minInsuredAmount": 1000,
+    "maxInsuredAmount": 50000,
+    "freeChildCoverageUntilAge": 18
+  },
+  "premiums_per_7500_eur_per_month": {
+    "1951": {"lt_10": 94.61},
+    "1952": {"lt_10": 91.16},
+    "1953": {"lt_10": 87.85},
+    "1954": {"lt_10": 84.92},
+    "1955": {"lt_10": 82.11},
+    "1956": {"lt_10": 79.56},
+    "1957": {"lt_10": 77.27},
+    "1958": {"lt_10": 74.97},
+    "1959": {"lt_10": 72.80},
+    "1960": {"lt_10": 70.89},
+    "1961": {"lt_10": 68.98, "lt_81": 51.00, "lt_99": 42.97},
+    "1962": {"lt_10": 67.19, "lt_81": 47.69, "lt_99": 40.80},
+    "1963": {"lt_10": 65.54, "lt_81": 44.75, "lt_99": 38.63},
+    "1964": {"lt_10": 63.88, "lt_81": 42.08, "lt_99": 36.72},
+    "1965": {"lt_10": 62.35, "lt_81": 39.65, "lt_99": 34.94},
+    "1966": {"lt_10": 60.95, "lt_15": 45.26, "lt_65": 110.80, "lt_81": 37.36, "lt_99": 33.28},
+    "1967": {"lt_10": 59.54, "lt_15": 43.99, "lt_65": 92.18, "lt_81": 35.32, "lt_99": 31.75},
+    "1968": {"lt_10": 58.27, "lt_15": 42.84, "lt_65": 78.80, "lt_81": 33.53, "lt_99": 30.22},
+    "1969": {"lt_10": 56.99, "lt_15": 41.69, "lt_65": 68.72, "lt_81": 31.75, "lt_99": 28.82},
+    "1970": {"lt_10": 55.72, "lt_15": 40.67, "lt_65": 60.82, "lt_81": 30.22, "lt_99": 27.54},
+    "1971": {"lt_10": 54.57, "lt_15": 39.65, "lt_20": 32.77, "lt_65": 54.57, "lt_81": 28.69, "lt_99": 26.39},
+    "1972": {"lt_10": 53.30, "lt_15": 38.63, "lt_20": 31.88, "lt_65": 49.34, "lt_81": 27.29, "lt_99": 25.25},
+    "1973": {"lt_10": 52.28, "lt_15": 37.74, "lt_20": 30.98, "lt_65": 44.88, "lt_81": 26.01, "lt_99": 24.10},
+    "1974": {"lt_10": 51.13, "lt_15": 36.85, "lt_20": 30.22, "lt_65": 41.18, "lt_81": 24.86, "lt_99": 23.21},
+    "1975": {"lt_10": 50.11, "lt_15": 36.08, "lt_20": 29.33, "lt_65": 38.00, "lt_81": 23.72, "lt_99": 22.19},
+    "1976": {"lt_10": 48.96, "lt_15": 35.19, "lt_20": 28.69, "lt_25": 24.99, "lt_65": 35.19, "lt_81": 22.70, "lt_99": 21.29},
+    "1977": {"lt_10": 47.94, "lt_15": 34.43, "lt_20": 27.92, "lt_25": 24.35, "lt_65": 32.77, "lt_81": 21.80, "lt_99": 20.40},
+    "1978": {"lt_10": 47.05, "lt_15": 33.66, "lt_20": 27.29, "lt_25": 23.72, "lt_65": 30.60, "lt_81": 20.78, "lt_99": 19.64},
+    "1979": {"lt_10": 46.03, "lt_15": 32.90, "lt_20": 26.65, "lt_25": 23.08, "lt_65": 28.69, "lt_81": 20.02, "lt_99": 18.87},
+    "1980": {"lt_10": 45.14, "lt_15": 32.26, "lt_20": 26.01, "lt_25": 22.44, "lt_65": 27.03, "lt_81": 19.13, "lt_99": 18.23},
+    "1981": {"lt_10": 44.12, "lt_15": 31.49, "lt_20": 25.37, "lt_25": 21.93, "lt_30": 19.76, "lt_65": 25.37, "lt_81": 18.36, "lt_99": 17.47},
+    "1982": {"lt_10": 43.22, "lt_15": 30.86, "lt_20": 24.86, "lt_25": 21.42, "lt_30": 19.25, "lt_65": 23.97, "lt_81": 17.72, "lt_99": 16.83},
+    "1983": {"lt_10": 42.33, "lt_15": 30.22, "lt_20": 24.23, "lt_25": 20.91, "lt_30": 18.74, "lt_65": 22.70, "lt_81": 16.96, "lt_99": 16.19},
+    "1984": {"lt_10": 41.44, "lt_15": 29.58, "lt_20": 23.72, "lt_25": 20.40, "lt_30": 18.23, "lt_65": 21.55, "lt_81": 16.32, "lt_99": 15.68},
+    "1985": {"lt_10": 40.67, "lt_15": 28.94, "lt_20": 23.21, "lt_25": 19.89, "lt_30": 17.85, "lt_65": 20.40, "lt_81": 15.68, "lt_99": 15.05},
+    "1986": {"lt_10": 39.78, "lt_15": 28.31, "lt_20": 22.70, "lt_25": 19.38, "lt_30": 17.34, "lt_40": 15.30, "lt_65": 19.38, "lt_81": 15.17, "lt_99": 14.54},
+    "1987": {"lt_10": 39.02, "lt_15": 27.80, "lt_20": 22.19, "lt_25": 19.00, "lt_30": 16.96, "lt_40": 14.79, "lt_65": 18.49, "lt_81": 14.66, "lt_99": 14.03},
+    "1988": {"lt_10": 38.25, "lt_15": 27.16, "lt_20": 21.68, "lt_25": 18.62, "lt_30": 16.58, "lt_40": 14.41, "lt_65": 17.72, "lt_81": 14.03, "lt_99": 13.52},
+    "1989": {"lt_10": 37.49, "lt_15": 26.65, "lt_20": 21.29, "lt_25": 18.11, "lt_30": 16.19, "lt_40": 14.03, "lt_65": 16.83, "lt_81": 13.64, "lt_99": 13.13},
+    "1990": {"lt_10": 36.72, "lt_15": 26.01, "lt_20": 20.78, "lt_25": 17.72, "lt_30": 15.81, "lt_40": 13.64, "lt_65": 16.07, "lt_81": 13.13, "lt_99": 12.62},
+    "1991": {"lt_10": 35.96, "lt_15": 25.50, "lt_20": 20.40, "lt_25": 17.34, "lt_30": 15.43, "lt_40": 13.26, "lt_65": 15.43, "lt_81": 12.62, "lt_99": 12.24},
+    "1992": {"lt_10": 35.19, "lt_15": 24.99, "lt_20": 20.02, "lt_25": 16.96, "lt_30": 15.05, "lt_40": 13.01, "lt_65": 14.79, "lt_81": 12.24, "lt_99": 11.86},
+    "1993": {"lt_10": 34.55, "lt_15": 24.48, "lt_20": 19.51, "lt_25": 16.70, "lt_30": 14.79, "lt_40": 12.62, "lt_65": 14.15, "lt_81": 11.86, "lt_99": 11.48},
+    "1994": {"lt_10": 33.92, "lt_15": 23.97, "lt_20": 19.13, "lt_25": 16.32, "lt_30": 14.41, "lt_40": 12.37, "lt_65": 13.64, "lt_81": 11.48, "lt_99": 11.09},
+    "1995": {"lt_10": 33.15, "lt_15": 23.59, "lt_20": 18.74, "lt_25": 15.94, "lt_30": 14.15, "lt_40": 11.99, "lt_65": 13.13, "lt_81": 11.09, "lt_99": 10.84},
+    "1996": {"lt_10": 32.51, "lt_15": 23.08, "lt_20": 18.36, "lt_25": 15.68, "lt_30": 13.90, "lt_40": 11.73, "lt_65": 12.62, "lt_81": 10.71, "lt_99": 10.46},
+    "1997": {"lt_10": 31.88, "lt_15": 22.57, "lt_20": 17.98, "lt_25": 15.30, "lt_30": 13.52, "lt_40": 11.48, "lt_65": 12.11, "lt_81": 10.46, "lt_99": 10.20},
+    "1998": {"lt_10": 31.37, "lt_15": 22.19, "lt_20": 17.72, "lt_25": 15.05, "lt_30": 13.26, "lt_40": 11.22, "lt_65": 11.73, "lt_81": 10.07, "lt_99": 9.82},
+    "1999": {"lt_10": 30.73, "lt_15": 21.80, "lt_20": 17.34, "lt_25": 14.66, "lt_30": 13.01, "lt_40": 10.97, "lt_65": 11.35, "lt_81": 9.82, "lt_99": 9.56},
+    "2000": {"lt_10": 30.09, "lt_15": 21.29, "lt_20": 16.96, "lt_25": 14.41, "lt_30": 12.75, "lt_40": 10.71, "lt_65": 10.97, "lt_81": 9.56, "lt_99": 9.31},
+    "2001": {"lt_10": 29.58, "lt_15": 20.91, "lt_20": 16.70, "lt_25": 14.15, "lt_30": 12.50, "lt_40": 10.58, "lt_65": 10.58, "lt_81": 9.18, "lt_99": 9.05},
+    "2002": {"lt_10": 28.94, "lt_15": 20.53, "lt_20": 16.32, "lt_25": 13.90, "lt_30": 12.24, "lt_40": 10.33, "lt_65": 10.20, "lt_81": 8.93, "lt_99": 8.80},
+    "2003": {"lt_10": 28.43, "lt_15": 20.15, "lt_20": 16.07, "lt_25": 13.64, "lt_30": 11.99, "lt_40": 10.07, "lt_65": 9.82, "lt_81": 8.67, "lt_99": 8.54},
+    "2004": {"lt_10": 27.92, "lt_15": 19.76, "lt_20": 15.68, "lt_25": 13.39, "lt_30": 11.73, "lt_40": 9.95, "lt_65": 9.56, "lt_81": 8.54, "lt_99": 8.29},
+    "2005": {"lt_10": 27.41, "lt_15": 19.38, "lt_20": 15.43, "lt_25": 13.13, "lt_30": 11.60, "lt_40": 9.69, "lt_65": 9.31, "lt_81": 8.29, "lt_99": 8.16},
+    "2006": {"lt_10": 26.90, "lt_15": 19.00, "lt_20": 15.17, "lt_25": 12.88, "lt_30": 11.35, "lt_40": 9.56, "lt_65": 8.93, "lt_81": 8.03, "lt_99": 7.91},
+    "2007": {"lt_10": 26.39, "lt_15": 18.74, "lt_20": 14.92, "lt_25": 12.62, "lt_30": 11.09, "lt_40": 9.31, "lt_65": 8.67, "lt_81": 7.78, "lt_99": 7.65},
+    "2008": {"lt_10": 25.88, "lt_15": 18.36, "lt_20": 14.66, "lt_25": 12.37, "lt_30": 10.97, "lt_40": 9.18, "lt_65": 8.42, "lt_81": 7.65, "lt_99": 7.52}
+  },
+  "exampleCalculation": {
+    "scenario": "Persoon geboren in 1985, gewenst verzekerd bedrag €15.000, looptijd: levenslang",
+    "step1": "Basis premie 1985 / lt_99 = €15.05 per maand voor €7.500 verzekerd bedrag",
+    "step2": "Schalen: (15.05 × 15000) / 7500 = €30.10 per maand",
+    "result": "€30,10 per maand"
+  }
+}
